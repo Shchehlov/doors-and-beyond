@@ -1,0 +1,2423 @@
+section,footer{
+    width: 100%;
+    min-width: 1025px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+header,nav{
+    width: 100%;
+    min-width: 1025px;
+    background-repeat: no-repeat;
+}
+.clear{clear: both;}
+.wrapp1025{
+    min-width: 1025px;
+    width: 100%;
+    overflow: hidden;
+}
+/* Content */
+.content{
+    min-width: 1025px;
+    width: auto;
+}
+.content div{
+    box-sizing: content-box;
+}
+.product-cart{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    position: relative;
+    z-index: 1;
+}
+.product-cart .foto-wrapp{
+    max-width: 474px;
+    height: auto;
+    float: left;
+	margin-top: 32px;
+}
+.product-cart .foto-wrapp .small-foto-bl{
+    width: 78px;
+    height: auto;
+    float: left;
+}
+.product-cart .foto-wrapp .small-foto-bl.mob-foto-nav{
+    display: none;
+}
+.product-cart .foto-wrapp .small-foto-bl .nav-foto{
+    width: 76px;
+    height: 76px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 12px;
+    cursor: pointer;
+    display: block;
+}
+.product-cart .foto-wrapp .small-foto-bl .nav-foto img{
+    width: 100%;
+    height: 100%;
+	display: block;
+}
+.product-cart .foto-wrapp .big-foto-bl{
+    max-width: 370px;
+	width: 100%;
+    height: auto;
+    float: right;
+    text-align: center;
+	margin-left: 15px;
+}
+.product-cart .foto-wrapp .big-foto-bl img{
+	width: 100%;
+	height: auto;
+}
+@media all and (max-width: 1160px) {
+	.product-cart .mousetrap,
+	.product-cart .cloud-zoom-big{
+		display: none;
+	}
+}
+.product-cart .desc-bl{
+	width: 100%;
+    max-width: 474px;
+    height: auto;
+    float: left;
+    margin: 32px 0 0 50px;
+	position: relative;
+}
+.product-cart .desc-bl .warranty{
+    position: absolute;
+	top: 0px;
+    right: 0px;
+}
+.product-cart .desc-bl .zag{
+    font: 24px Helvetica-Regular;
+    color: #000;
+    position: relative;
+}
+.product-cart .desc-bl .price{
+    font: 30px Helvetica-Bold;
+    color: #618926;
+    padding-top: 25px;
+}
+.product-cart .desc-bl .addcart-btn{
+    width: 146px;
+    height: 41px;
+    border-radius: 4px;
+    background: #5cb85c;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font: 14px Helvetica-Medium;
+    line-height: 41px;
+    margin-top: 9px;
+    float: left;
+    margin-right: 24px;
+}
+.product-cart .desc-bl .addcart-btn:hover{
+    background: #76e276;
+}
+.product-cart .desc-bl .addcart-btn p:before{
+    content: url(../img/calculate/addcart-btn.png);
+    position: relative;
+    top: 2px;
+    margin-right: 17px;
+}
+.product-cart .desc-bl .create-btn{
+    width: 190px;
+    height: 41px;
+    border-radius: 4px;
+    display: block;
+    background: #f2f2f2;
+    font: 13.42px Helvetica-Heavy;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 9px;
+    float: left;
+}
+.product-cart .desc-bl .create-btn p:before{
+    content: url(../img/calculate/video-btn.png);
+    position: relative;
+    top: 8px;
+    margin-right: 15px;
+    width: 37px;
+    height: 27px;
+    display: inline-block;
+}
+.product-cart .desc-bl .create-btn:hover{
+    background: #f1592a;
+    color: #fff;
+}
+.product-cart .desc-bl .create-btn:hover > p:before{
+    content: url(../img/calculate/video-btn-hover.png);
+}
+.product-cart .desc-bl .opis{
+    font: 12px Helvetica-Regular;
+    color: #585858;
+    padding-top: 35px;
+}
+.product-cart .desc-bl .rating-bl{
+    margin-top: 15px;
+}
+.product-cart .desc-bl .rating-bl p{
+    font: 12px Helvetica-Regular;
+    color: #585858;
+}
+.product-cart .desc-bl .rating-bl p b{
+    font: 12px Helvetica-Bold;
+}
+.product-cart .desc-bl .rating-bl .stars{
+    width: auto;
+    height: 13px;
+    margin-top: 4px;
+}
+.product-cart .desc-bl .size-bl{
+    margin: 50px 45px 0 0;
+    float: left;
+}
+.product-cart .desc-bl .size-bl .desc{
+    font: 14px Helvetica-Medium;
+}
+.product-cart .desc-bl .size-bl .desc:before{
+    width: 17px;
+    height: 17px;
+    content: '';
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    top: 4px;
+    margin-right: 9px;
+}
+.product-cart .desc-bl .size-bl .desc-green:before{
+    background: #00a658;
+}
+.product-cart .desc-bl .size-bl .desc-blue:before{
+    background: #5da4f7;
+}
+.product-cart .desc-bl .size-bl ul{
+    margin: 7px 0 0 26px;
+    font: 14px Helvetica-Regular;
+}
+/*---*/
+.customize-line{
+    width: 100%;
+    min-width: 1025px;
+    height: 34px;
+    background: #8e4221;
+    position: relative;
+}
+.customize-line .center{
+    width: 155px;
+    height: 41px;
+    margin: 0 auto;
+    text-align: center;
+    font: 14px Helvetica-Bold;
+    color: #fff;
+    line-height: 35px;
+    background: url(../img/calculate/customiza-bg.png) center no-repeat;
+}
+
+.content-product .description-wrapp{
+    width: 1025px;
+    margin: 0 auto 50px;
+}
+.content-product .tabs-wrapp{
+	width: 100%;
+	max-width: 1025px;
+	margin-top: 40px;
+}
+.content-product .tabs-wrapp .tab{
+	font: 16.79px Helvetica-Regular;
+	color: #6d6d6d;
+	background: #e5e5e5;
+	border-radius: 3px;
+	float: left;
+	padding: 0 10px;
+	height: 29px;
+	line-height: 29px;
+	margin-right: 9px;
+	cursor: pointer;
+}
+.content-product .tabs-wrapp .tab:last-child{
+	margin-right: 0;
+}
+.content-product .tabs-wrapp .tab.active{
+	background: #f2f2f2;
+	height: 37px;
+	border-radius: 3px 3px 0 0;
+}
+.content-product .opis{
+	padding: 28px 40px 30px 40px;
+	width: 100%;
+	box-sizing: border-box;
+	background: #f2f2f2;
+	border-radius: 0 3px 3px 3px;
+	display: none;
+}
+.content-product .opis:first-child{
+	display: block;
+}
+.content-product .opis .txt{
+	font: 12px Arial;
+	color: #545454;
+	padding-bottom: 16px;
+	max-width: 770px;
+}
+.content-product .opis .open-opis{
+	width: 100%;
+	font: 16.79px Helvetica-Regular;
+	color: #6d6d6d;
+	background: #e5e5e5;
+	text-align: left;
+	border: none;
+	padding: 10px 0 9px 15px;
+	cursor: pointer;
+	position: relative;
+	display: none;
+}
+.content-product .opis .open-opis p:before{
+	content: url(../img/catalog/show-btn.png);
+	position: absolute;
+	top: 9px;
+	right: 15px;
+}
+.content-product .opis .open-opis.active{
+	border-bottom: 1px solid #6d6d6d;
+}
+.content-product .opis .open-opis.active p:before{
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/* Section bg */
+.bg-calc{
+    background: #f2f2f2;
+    position: relative;
+}
+.bg-calc .wrapp-vubrano{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 6;
+    display: none;
+}
+.bg-calc.no-active{
+    background: #fff;
+}
+.content .btn-bl{
+    width: 180px;
+    height: 32px;
+    position: absolute;
+    top: 55px;
+    left: 15px;
+    z-index: 5;
+}
+.content .btn-bl .prev-bt{
+    width: 69px;
+    height: 32px;
+    background: #a5a5a5;
+    border-radius: 5px;
+    font: 13px Helvetica-Heavy;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 32px;
+    padding-left: 6px;
+    float: left;
+    cursor: pointer;
+}
+.content .btn-bl .prev-bt p:before{
+    content: url(../img/calculate/prev-bt.png);
+    position: relative;
+    top: 3px;
+    margin-right: 9px;
+}
+.content .btn-bl .prev-bt:hover{
+    background: #5da4f7;
+}
+.content .btn-bl .clear-bt{
+    width: 90px;
+    height: 32px;
+    background: #929292;
+    border-radius: 5px;
+    font: 13px Helvetica-Heavy;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 32px;
+    padding-left: 6px;
+    float: left;
+    margin-left: 9px;
+    cursor: pointer;
+}
+.content .btn-bl .clear-bt p:before{
+    content: url(../img/calculate/clear-bt.png);
+    position: relative;
+    top: 3px;
+    margin-right: 6px;
+}
+.content .btn-bl .clear-bt:hover{
+    background: #5da4f7;
+}
+.bg-calc .price-bl{
+    width: 227px;
+    height: 60px;
+    background: #fff;
+    position: absolute;
+    top: 55px;
+    right: 0;
+}
+.bg-calc .price-bl .txt{
+    font: 14px Helvetica-Regular;
+    color: #a1a1a1;
+    float: left;
+    line-height: 60px;
+    padding-left: 17px;
+}
+.bg-calc .price-bl .total-price{
+    font: 30px Helvetica-Bold;
+    color: #618926;
+    float: left;
+    line-height: 60px;
+    padding-left: 10px;
+}
+/*-*/
+.bg-calc .razd-section{
+    width: 100%;
+    height: 5px;
+    background: #fff;
+}
+.bg-calc .razd-section .brown{
+    width: 1025px;
+    height: 5px;
+    background: #8e4221;
+    margin: 0 auto;
+}
+.bg-calc .desc{
+    font: 24px Helvetica-Regular;
+    color: #000;
+    text-align: center;
+    padding-top: 69px;
+    position: relative;
+}
+
+.bg-calc .details{
+    font: 12px Arial;
+    color: #2755cc;
+    text-align: center;
+    display: block;
+    width: 70px;
+    margin: 6px auto 0 auto;
+    text-decoration: none;
+    position: relative;
+}
+.bg-calc .details:before{
+    content: url(../img/calculate/details-ico.png);
+    position: relative;
+    top: 4px;
+    margin-right: 8px;
+}
+.bg-calc .details:hover span{
+    border-bottom: none;
+}
+.bg-calc .details span{
+    border-bottom: 1px dashed #2755cc;
+}
+
+/* Select configuration */
+.select-configuration{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 95px;
+}
+.select-configuration .wrapp-sel{
+    margin-top: 66px;
+    text-align: center;
+}
+.select-configuration .conf{
+    width: 109px;
+    height: 240px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+.select-configuration .conf.no-vubor{
+    opacity: .5;
+}
+.select-configuration .conf.vubor{
+    border: 2px solid #5da4f7;
+}
+.select-configuration .conf:hover{
+    border: 2px solid #5da4f7;
+}
+.select-configuration .conf-7{
+    width: 141px;
+}
+.select-configuration .conf-8{
+    width: 158px;
+}
+.select-configuration .conf .ico{
+    width: auto;
+    height: 182px;
+    text-align: center;
+    padding-top: 14px;
+}
+.select-configuration .conf .name{
+    font: 13px Helvetica-Regular;
+    color: #000;
+    padding-top: 12px;
+}
+/* Select configuration */
+
+
+/* Select Pocket Door Combination */
+.select-pocket-door-combination{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 45px;
+}
+.select-pocket-door-combination .wrapp-sel{
+    margin-top: 45px;
+    text-align: center;
+}
+.select-pocket-door-combination .wrapp-sel .pocket{
+    width: 340px;
+    height: 300px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.select-pocket-door-combination .wrapp-sel .pocket.no-vubor{
+    opacity: .5;
+}
+.select-pocket-door-combination .wrapp-sel .pocket.vubor{
+    opacity: 1;
+}
+.select-pocket-door-combination .wrapp-sel .pocket.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-pocket-door-combination .wrapp-sel .pocket:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-pocket-door-combination .wrapp-sel .pocket:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-pocket-door-combination .wrapp-sel .pocket .ico{
+    width: 336px;
+    height: 256px;
+    background: #fff;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    text-align: center;
+}
+.select-pocket-door-combination .wrapp-sel .pocket .ico .name{
+    font: 18px Helvetica-Regular;
+    color: #000;
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+.select-pocket-door-combination .wrapp-sel .pocket .price{
+    font: 14px Helvetica-Regular;
+    color: #000;
+    text-align: center;
+    padding-top: 15px;
+}
+/* Select Pocket Door Combination */
+
+
+/* Select Door Height */
+.select-door-height{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 85px;
+}
+.select-door-height .wrapp-sel{
+    width: 500px;
+    height: 266px;
+    margin: 36px auto 0 auto;
+}
+.select-door-height .ico{
+    float: left;
+}
+.select-door-height .size-bl{
+    float: left;
+    width: 289px;
+    margin: 12px 0 0 50px;
+}
+.select-door-height .size-bl .size{
+    width: 132px;
+    height: 88px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 2px;
+    font: 31.47px Helvetica-Bold;
+    color: #000;
+    text-align: center;
+    line-height: 88px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.select-door-height .size-bl .size.no-vubor{
+    opacity: 0.5;
+}
+.select-door-height .size-bl .size.vubor{
+    background: #5da4f7;
+    color: #fff;
+}
+.select-door-height .size-bl .size span{
+    font: 18px Helvetica-Bold;
+}
+.select-door-height .size-bl .size:hover{
+    background: #5da4f7;
+    color: #fff;
+}
+/* Select Door Height */
+
+
+/* Select Door Height Double */
+.select-door-height-double{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 85px;
+}
+.select-door-height-double .wrapp-sel{
+    width: 604px;
+    height: 266px;
+    margin: 36px auto 0 auto;
+}
+.select-door-height-double .ico{
+    float: left;
+}
+.select-door-height-double .size-bl{
+    float: left;
+    width: 289px;
+    margin: 12px 0 0 50px;
+}
+.select-door-height-double .size-bl .size{
+    width: 132px;
+    height: 88px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 2px;
+    font: 31.47px Helvetica-Bold;
+    color: #000;
+    text-align: center;
+    line-height: 88px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.select-door-height-double .size-bl .size.no-vubor{
+    opacity: 0.5;
+}
+.select-door-height-double .size-bl .size.vubor{
+    background: #5da4f7;
+    color: #fff;
+}
+.select-door-height-double .size-bl .size span{
+    font: 18px Helvetica-Bold;
+}
+.select-door-height-double .size-bl .size:hover{
+    background: #5da4f7;
+    color: #fff;
+}
+/* Select Door Height Double */
+
+
+/* Select Door Width */
+.select-door-width{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 85px;
+}
+.select-door-width .wrapp-sel{
+    width: 500px;
+    height: 289px;
+    margin: 36px auto 0 auto;
+}
+.select-door-width .ico{
+    float: left;
+}
+.select-door-width .size-bl{
+    float: left;
+    width: 255px;
+    margin: 12px 0 0 70px;
+}
+.select-door-width .size-bl .size{
+    width: 75px;
+    height: 59px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 2px;
+    font: 31.47px Helvetica-Bold;
+    color: #000;
+    text-align: center;
+    line-height: 59px;
+    cursor: pointer;
+    margin-left: 7px;
+    margin-bottom: 12px;
+}
+.select-door-width .size-bl .size.no-vubor{
+    opacity: 0.5;
+}
+.select-door-width .size-bl .size.vubor{
+    background: #5da4f7;
+    color: #fff;
+}
+.select-door-width .size-bl .size span{
+    font: 18px Helvetica-Bold;
+}
+.select-door-width .size-bl .size:hover{
+    background: #5da4f7;
+    color: #fff;
+}
+/* Select Door Width */
+
+
+/* Select Door Width Double */
+.select-door-width-double{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 85px;
+}
+.select-door-width-double .wrapp-sel{
+    width: 811px;
+    height: 289px;
+    padding-top: 106px;
+    margin: 0px auto 0 auto;
+}
+.select-door-width-double .ico{
+    float: left;
+    margin: 0 26px 0 21px;
+}
+.select-door-width-double .size-bl{
+    float: left;
+    width: 255px;
+    margin: 0px 0 0 0px;
+}
+.select-door-width-double .size-bl .txt{
+    font: 18px Helvetica-Regular;
+    color: #000;
+    padding: 35px 0 22px 0;
+}
+.select-door-width-double .size-bl .size{
+    width: 75px;
+    height: 59px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 2px;
+    font: 31.47px Helvetica-Bold;
+    color: #000;
+    text-align: center;
+    line-height: 59px;
+    cursor: pointer;
+    margin-right: 7px;
+    margin-bottom: 12px;
+}
+.select-door-width-double .size-bl .size.no-vubor{
+    opacity: 0.5;
+}
+.select-door-width-double .size-bl .size.vubor{
+    background: #5da4f7;
+    color: #fff;
+}
+.select-door-width-double .size-bl .size span{
+    font: 18px Helvetica-Bold;
+}
+.select-door-width-double .size-bl .size:hover{
+    background: #5da4f7;
+    color: #fff;
+}
+/* Select Door Width Double */
+
+
+
+
+
+/* Select Jamb Width */
+.select-jamb-width{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 68px;
+}
+.select-jamb-width .wrapp-sel{
+    text-align: center;
+    margin: 26px auto 0 auto;
+    width: 548px;
+    height: 270px;
+}
+.select-jamb-width .ico{
+    float: left;
+    margin-top: 45px;
+}
+.select-jamb-width .size-bl{
+    width: 147px;
+    height: auto;
+    float: left;
+    margin-left: 88px;
+}
+.select-jamb-width .size-bl .size{
+    width: 147px;
+    height: 59px;
+    border-radius: 2px;
+    background: #fff;
+    font: 31.47px Helvetica-Bold;
+    color: #000;
+    line-height: 59px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.select-jamb-width .size-bl .size.no-vubor{
+    opacity: 0.5;
+}
+.select-jamb-width .size-bl .size.vubor{
+    background: #5da4f7;
+    color: #fff;
+}
+.select-jamb-width .size-bl .size span{
+    font: 24px Helvetica-Bold;
+}
+.select-jamb-width .size-bl .size:hover{
+    background: #5da4f7;
+    color: #fff;
+}
+.select-jamb-width .size-bl .size .txt{
+    font: 18px Helvetica-Bold;
+    line-height: normal;
+    padding-top: 10px;
+}
+/* Select Jamb Width */
+
+
+/* Select Hinges Finish */
+.select-hinges-finish{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.select-hinges-finish .wrapp-sel{
+    text-align: center;
+    margin: 36px 0 0 0;
+}
+.select-hinges-finish .sel{
+    width: 334px;
+    height: 283px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 6px;
+}
+.select-hinges-finish .sel.no-vubor{
+    opacity: .5;
+}
+.select-hinges-finish .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-hinges-finish .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-hinges-finish .sel .ico{
+    width: 330px;
+    height: 239px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 5px;
+}
+.select-hinges-finish .sel .ico img{
+    padding-top: 34px;
+}
+.select-hinges-finish .sel .txt{
+    font: 18px Helvetica-Regular;
+    color: #000;
+    padding-top: 15px;
+}
+/* Select Hinges Finish */
+
+
+/* Select Handle Preparation */
+.select-handle-preparation{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 83px;
+}
+.select-handle-preparation .wrapp-sel{
+    text-align: center;
+    margin: 38px 0 0 0;
+}
+.select-handle-preparation .sel{
+    width: 334px;
+    height: 243px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 6px;
+    vertical-align: top;
+}
+.select-handle-preparation .sel.no-vubor{
+    opacity: .5;
+}
+.select-handle-preparation .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-handle-preparation .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-handle-preparation .sel .ico{
+    width: 334px;
+    height: 243px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 5px;
+}
+/* Select Handle Preparation */
+
+
+/* Door Swing Direction */
+.door-swing-direction{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 114px;
+}
+.door-swing-direction .wrapp-sel{
+    text-align: center;
+    margin: 33px 0 0 0;
+}
+.door-swing-direction .sel{
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 15px;
+    vertical-align: top;
+    width: 191px;
+    height: 213px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+}
+.door-swing-direction .sel.no-vubor{
+    opacity: .5;
+}
+.door-swing-direction .sel.vubor{
+    border: 2px solid #5da4f7;
+}
+.door-swing-direction .sel img{
+    padding-top: 20px;
+}
+.door-swing-direction .sel:hover{
+    border: 2px solid #5da4f7;
+}
+/* Door Swing Direction */
+
+
+/* Select Pull Design */
+.select-pull-design{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 64px;
+}
+.select-pull-design .wrapp-sel{
+    text-align: center;
+    margin: 62px 0 0 0;
+}
+.select-pull-design .sel{
+    width: 155px;
+    height: 238px;
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.select-pull-design .sel.no-vubor{
+    opacity: .5;
+}
+.select-pull-design .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-pull-design .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-pull-design .sel .ico{
+    width: 151px;
+    height: 174px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 40px;
+}
+.select-pull-design .sel .ico .agb{
+    padding-top: 32px;
+}
+.select-pull-design .sel .ico .txt_1{
+    font: 11px Helvetica-Regular;
+    color: #000;
+    padding-top: 7px;
+}
+.select-pull-design .sel .ico .txt_2{
+    font: 12px Helvetica-Regular;
+    color: #737373;
+    font-style: italic;
+    padding-top: 5px;
+}
+.select-pull-design .sel .price{
+    font: 12px Helvetica-Regular;
+    padding-top: 6px;
+}
+/* Select Pull Design */
+
+
+/* Select Barn Door Track Seth */
+.select-barn-door-track-set{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.select-barn-door-track-set .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.select-barn-door-track-set .sel{
+    width: 432px;
+    height: 290px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 4px;
+}
+.select-barn-door-track-set .sel.no-vubor{
+    opacity: .5;
+}
+.select-barn-door-track-set .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-barn-door-track-set .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-barn-door-track-set .sel .ico{
+    width: 428px;
+    height: 254px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+}
+.select-barn-door-track-set .sel .price{
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 11px;
+}
+.select-barn-door-track-set .sel .price.no-price{
+    color: #999999;
+}
+/* Select Barn Door Track Seth */
+
+
+/* Select Configuration */
+.select-configuration-2{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 70px;
+}
+.select-configuration-2 .wrapp-sel{
+    text-align: center;
+    margin: 38px 0 0 0;
+}
+.select-configuration-2 .sel{
+    width: 432px;
+    height: 247px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 5px;
+    vertical-align: top;
+}
+.select-configuration-2 .sel.no-vubor{
+    opacity: .5;
+}
+.select-configuration-2 .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-configuration-2 .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-configuration-2 .sel .ico{
+    width: 428px;
+    height: 200px;
+    padding-top: 43px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 5px;
+}
+.select-configuration-2 .sel .ico .txt_1{
+    font: 18px Helvetica-Regular;
+    color: #000;
+    padding-top: 25px;
+}
+/* Select Configuration */
+
+
+/* Select Barn Door Track Seth */
+.single-door-hardware{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.single-door-hardware .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.single-door-hardware .sel{
+    width: 436px;
+    height: 290px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 4px;
+}
+.single-door-hardware .sel.no-vubor{
+    opacity: .5;
+}
+.single-door-hardware .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.single-door-hardware .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.single-door-hardware .sel .ico{
+    width: 432px;
+    height: 254px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+}
+.single-door-hardware .sel .ico .padImg{
+    padding-top: 37px;
+}
+.single-door-hardware .sel .price{
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 11px;
+}
+.single-door-hardware .sel .price.no-price{
+    color: #999999;
+}
+/* Select Barn Door Track Seth */
+
+
+/* Select Matching Jamb and Casings */
+.select-matching-jamb-and-casings{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.select-matching-jamb-and-casings .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.select-matching-jamb-and-casings .sel{
+    width: 432px;
+    height: 230px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 4px; 
+}
+.select-matching-jamb-and-casings .sel.no-vubor{
+    opacity: .5;
+}
+.select-matching-jamb-and-casings .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-matching-jamb-and-casings .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-matching-jamb-and-casings .sel .ico{
+    width: 428px;
+    height: 188px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+    position: relative;
+}
+.select-matching-jamb-and-casings .sel .ico .txt_3{
+    font: 15.75px Helvetica-Regular;
+    color: #000;
+    padding-top: 12px;
+}
+.select-matching-jamb-and-casings .sel .ico .txt_4{
+    font: 15.75px Helvetica-Regular;
+    color: #000;
+    position: absolute;
+    top: 165px;
+    left: 115px;
+}
+.select-matching-jamb-and-casings .sel .price{
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 11px;
+}
+.select-matching-jamb-and-casings .sel .price.no-price{
+    color: #999999;
+}
+/* Select Matching Jamb and Casings */
+
+
+/* 100SD Sliding Bypass Door Hardware */
+.sliding-bypass-door-hardware{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.sliding-bypass-door-hardware .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.sliding-bypass-door-hardware .sel{
+    width: 432px;
+    height: 294px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 4px; 
+}
+.sliding-bypass-door-hardware .sel.no-vubor{
+    opacity: .5;
+}
+.sliding-bypass-door-hardware .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.sliding-bypass-door-hardware .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.sliding-bypass-door-hardware .sel .ico{
+    width: 428px;
+    height: 258px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+}
+.sliding-bypass-door-hardware .sel .price{
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 11px;
+}
+.sliding-bypass-door-hardware .sel .price.no-price{
+    color: #999999;
+}
+/* 100SD Sliding Bypass Door Hardware */
+
+
+/* Select Matching Jamb and Casings-2 */
+.select-matching-jamb-and-casings-2{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 70px;
+}
+.select-matching-jamb-and-casings-2 .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.select-matching-jamb-and-casings-2 .sel{
+    width: 287px;
+    height: 230px;
+    display: inline-block;
+    margin: 0 4px;
+    cursor: pointer; 
+}
+.select-matching-jamb-and-casings-2 .sel.no-vubor{
+    opacity: .5;
+}
+.select-matching-jamb-and-casings-2 .sel.vubor .ico{
+    border: 2px solid #5da4f7;
+}
+.select-matching-jamb-and-casings-2 .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-matching-jamb-and-casings-2 .sel .ico{
+    width: 283px;
+    height: 184px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    text-align: center;
+}
+.select-matching-jamb-and-casings-2 .sel .ico .txt_3{
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 15px;
+}
+.select-matching-jamb-and-casings-2 .sel .price{
+    text-align: center;
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 18px;
+}
+.select-matching-jamb-and-casings-2 .sel .price.no-price{
+    color: #999999;
+}
+/* Select Matching Jamb and Casings-2 */
+
+
+/* Select Non-Mortise Hinges */
+.select-non-mortise-hinges{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 83px;
+}
+.select-non-mortise-hinges .wrapp-sel{
+    text-align: center;
+    margin: 38px 0 0 0;
+}
+.select-non-mortise-hinges .sel{
+    width: 334px;
+    height: 243px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 6px;
+    vertical-align: top;
+}
+.select-non-mortise-hinges .sel.no-vubor{
+    opacity: .5;
+}
+.select-non-mortise-hinges .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-non-mortise-hinges .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-non-mortise-hinges .sel .ico{
+    width: 334px;
+    height: 243px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 5px;
+}
+/* Select Non-Mortise Hinges */
+
+
+/* Select Closure Option */
+.select-closure-option{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 70px;
+}
+.select-closure-option .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.select-closure-option .sel{
+    width: 375px;
+    height: 230px;
+    display: inline-block;
+    margin: 0 4px;
+    cursor: pointer; 
+}
+.select-closure-option .sel.no-vubor{
+    opacity: .5;
+}
+.select-closure-option .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-closure-option .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-closure-option .sel .ico{
+    width: 371px;
+    height: 188px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    text-align: center;
+}
+.select-closure-option .sel .ico .txt_1{
+    font: 18px Helvetica-Regular;
+    color: #000;
+    position: absolute;
+    margin: 150px 0 0 70px;
+}
+.select-closure-option .sel .price{
+    text-align: center;
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 18px;
+}
+.select-closure-option .sel .price.no-price{
+    color: #999999;
+}
+/* Select Closure Option */
+
+
+/* Series Pocket Door Frame */
+.series-pocket-door{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 70px;
+}
+.series-pocket-door .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.series-pocket-door .sel{
+    width: 432px;
+    height: 290px;
+    display: inline-block;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.series-pocket-door .sel.no-vubor{
+    opacity: .5;
+}
+.series-pocket-door .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.series-pocket-door .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.series-pocket-door .sel .ico{
+    width: 428px;
+    height: 254px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    text-align: center;
+}
+.series-pocket-door .sel .price{
+    text-align: center;
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 18px;
+}
+.series-pocket-door .sel .price.no-active{
+    color: #999999;
+}
+/* Series Pocket Door Frame */
+
+
+/* Select Lock Functionality */
+.select-lock-functionality{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 64px;
+}
+.select-lock-functionality .wrapp-sel{
+    text-align: center;
+    margin: 62px 0 0 0;
+}
+.select-lock-functionality .sel{
+    width: 155px;
+    height: 238px;
+    display: inline-block;
+    margin: 0 6px;
+    cursor: pointer;
+}
+.select-lock-functionality .sel.no-vubor{
+    opacity: .5;
+}
+.select-lock-functionality .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-lock-functionality .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-lock-functionality .sel .ico{
+    width: 151px;
+    height: 174px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 40px;
+}
+.select-lock-functionality .sel .ico .agb{
+    padding-top: 32px;
+}
+.select-lock-functionality .sel .ico .txt_1{
+    font: 11px Helvetica-Regular;
+    color: #000;
+    padding-top: 7px;
+}
+.select-lock-functionality .sel .ico .txt_2{
+    font: 12px Helvetica-Regular;
+    color: #737373;
+    font-style: italic;
+    padding-top: 5px;
+}
+.select-lock-functionality .sel .price{
+    font: 12px Helvetica-Regular;
+    padding-top: 6px;
+}
+/* Select Lock Functionality */
+
+
+/* Select Lock Functionality-double */
+.select-lock-functionality-double{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 40px;
+}
+.select-lock-functionality-double .wrapp-sel{
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.select-lock-functionality-double .zag{
+    font: 18px Helvetica-Regular;
+    padding-bottom: 10px;
+}
+.select-lock-functionality-double .ico-center{
+    padding-top: 145px;
+}
+.select-lock-functionality-double .left{
+    width: 425px;
+    height: auto;
+    float: left;
+}
+.select-lock-functionality-double .right{
+    width: 425px;
+    height: auto;
+    float: right;
+}
+.select-lock-functionality-double .sel{
+    width: 126px;
+    height: 238px;
+    display: inline-block;
+    margin: 0 6px;
+    cursor: pointer;
+}
+.select-lock-functionality-double .sel.no-vubor{
+    opacity: .5;
+}
+.select-lock-functionality-double .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-lock-functionality-double .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-lock-functionality-double .sel .ico{
+    width: 122px;
+    height: 144px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 30px;
+}
+.select-lock-functionality-double .sel .ico img{
+    width: 101px;
+    height: 63px;
+}
+.select-lock-functionality-double .sel .ico .agb{
+    padding-top: 20px;
+    width: 39px;
+    height: 14px;
+}
+.select-lock-functionality-double .sel .ico .txt_1{
+    font: 9.16px Helvetica-Regular;
+    color: #000;
+    padding-top: 7px;
+}
+.select-lock-functionality-double .sel .ico .txt_2{
+    font: 9.99px Helvetica-Regular;
+    color: #737373;
+    font-style: italic;
+    padding-top: 3px;
+}
+.select-lock-functionality-double .sel .price{
+    font: 9.99px Helvetica-Regular;
+    padding-top: 5px;
+}
+/* Select Lock Functionality-double */
+
+
+/* Select Wall Thickness */
+.select-wall-thickness{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.select-wall-thickness .cont-bg{
+    width: 501px;
+    height: 437px;
+    background: url(../img/calculate/wall-thickness-bg.png);
+    position: absolute;
+    bottom: 0;
+    left: 104px;
+}
+.select-wall-thickness .wrapp-sel{
+    text-align: center;
+    width: 501px;
+    margin: 50px 0 0 470px;
+    position: relative;
+}
+.select-wall-thickness .sel{
+    width: 228px;
+    height: 258px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 10px; 
+}
+.select-wall-thickness .sel.no-vubor{
+    opacity: .5;
+}
+.select-wall-thickness .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-wall-thickness .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-wall-thickness .sel .ico{
+    width: 224px;
+    height: 224px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+}
+.select-wall-thickness .sel .ico .txt_1{
+    font: 12px Helvetica-Regular;
+    color: #000;
+    padding-top: 26px;
+}
+.select-wall-thickness .sel .ico .txt_2{
+    font: 18px Helvetica-Medium;
+    color: #000;
+    padding-top: 3px;
+    padding-bottom: 8px;
+}
+.select-wall-thickness .sel .ico .txt_3{
+    font: 15.75px Helvetica-Regular;
+    color: #000;
+    padding-top: 12px;
+}
+.select-wall-thickness .sel .price{
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 11px;
+}
+.select-wall-thickness .sel .price.no-price{
+    color: #999999;
+}
+/* Select Wall Thickness */
+
+
+/* Select Hinges Type */
+.select-hinges-type{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.select-hinges-type .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.select-hinges-type .sel{
+    width: 338px;
+    height: 280px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 6px; 
+}
+.select-hinges-type .sel.no-vubor{
+    opacity: .5;
+}
+.select-hinges-type .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-hinges-type .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-hinges-type .sel .ico{
+    width: 334px;
+    height: 243px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+}
+.select-hinges-type .sel .price{
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 11px;
+}
+.select-hinges-type .sel .price.no-price{
+    color: #999999;
+}
+/* Select Hinges Type */
+
+
+/* Select Smart Sweep Option */
+.select-smart-sweep-option{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.select-smart-sweep-option .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.select-smart-sweep-option .sel{
+    width: 436px;
+    height: 290px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 4px; 
+}
+.select-smart-sweep-option .sel.no-vubor{
+    opacity: .5;
+}
+.select-smart-sweep-option .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-smart-sweep-option .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-smart-sweep-option .sel .ico{
+    width: 432px;
+    height: 258px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+}
+.select-smart-sweep-option .sel .price{
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 11px;
+}
+.select-smart-sweep-option .sel .price.no-price{
+    color: #999999;
+}
+/* Select Smart Sweep Option */
+
+
+/* Select Magnetic Lock Functionality */
+.select-magnetic-lock-functionality{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 64px;
+}
+.select-magnetic-lock-functionality .wrapp-sel{
+    text-align: center;
+    margin: 62px 0 0 0;
+}
+.select-magnetic-lock-functionality .sel{
+    width: 195px;
+    height: 310px;
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.select-magnetic-lock-functionality .sel.no-vubor{
+    opacity: .5;
+}
+.select-magnetic-lock-functionality .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-magnetic-lock-functionality .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-magnetic-lock-functionality .sel .ico{
+    width: 191px;
+    height: 235px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 38px;
+}
+.select-magnetic-lock-functionality .sel .ico .agb{
+    padding-top: 38px;
+}
+.select-magnetic-lock-functionality .sel .ico .txt_1{
+    font: 14.98px Helvetica-Regular;
+    color: #000;
+    padding-top: 18px;
+}
+.select-magnetic-lock-functionality .sel .price{
+    font: 14px Helvetica-Regular;
+    padding-top: 8px;
+}
+/* Select Magnetic Lock Functionality */
+
+
+/* Select Handle Design */
+.select-handle-design{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 64px;
+}
+.select-handle-design .wrapp-sel{
+    text-align: center;
+    margin: 62px 0 0 0;
+}
+.select-handle-design .sel{
+    width: 195px;
+    height: 250px;
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.select-handle-design .sel.no-vubor{
+    opacity: .5;
+}
+.select-handle-design .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-handle-design .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-handle-design .sel .ico{
+    width: 191px;
+    height: 153px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 60px;
+}
+.select-handle-design .sel .ico .txt_1{
+    font: 24px Helvetica-Regular;
+    color: #000;
+    padding-top: 25px;
+}
+.select-handle-design .sel .ico .txt_2{
+    font: 14px Helvetica-Regular;
+    color: #a1a1a1;
+    padding-top: 5px;
+}
+.select-handle-design .sel .price{
+    font: 14px Helvetica-Regular;
+    padding-top: 8px;
+    color: #999999;
+}
+/* Select Handle Design */
+
+/* Select Handle Design-2 */
+.select-handle-design-2{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 64px;
+}
+.select-handle-design-2 .wrapp-sel{
+    text-align: center;
+    margin: 62px 0 0 0;
+}
+.select-handle-design-2 .sel{
+    width: 165px;
+    height: 220px;
+    display: inline-block;
+    margin: 0 1px;
+    cursor: pointer;
+}
+.select-handle-design-2 .sel.no-vubor{
+    opacity: .5;
+}
+.select-handle-design-2 .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-handle-design-2 .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-handle-design-2 .sel .ico{
+    width: 161px;
+    height: 152px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 28px;
+}
+.select-handle-design-2 .sel .ico .txt_1{
+    font: 18px Helvetica-Regular;
+    color: #000;
+    padding-top: 10px;
+}
+.select-handle-design-2 .sel .ico .txt_2{
+    font: 14px Helvetica-Regular;
+    color: #a1a1a1;
+    padding-top: 5px;
+}
+.select-handle-design-2 .sel .price{
+    font: 13px Helvetica-Regular;
+    padding-top: 10px;
+    color: #999999;
+}
+/* Select Handle Design-2 */
+
+/* Select Smart Sweep Option */
+.select-closure-option-2{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.select-closure-option-2 .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.select-closure-option-2 .sel{
+    width: 338px;
+    height: 280px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 4px; 
+}
+.select-closure-option-2 .sel.no-vubor{
+    opacity: .5;
+}
+.select-closure-option-2 .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-closure-option-2 .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-closure-option-2 .sel .ico{
+    width: 334px;
+    height: 243px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+}
+.select-closure-option-2 .sel .ico .txt_1{
+    font: 30px Helvetica-Regular;
+    color: #000;
+    padding-top: 100px;
+}
+.select-closure-option-2 .sel .ico .txt_2{
+    font: 14px Helvetica-Regular;
+    color: #a1a1a1;
+    padding-top: 3px;
+}
+.select-closure-option-2 .sel .price{
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 11px;
+}
+.select-closure-option-2 .sel .price.no-price{
+    color: #999999;
+}
+/* Select Smart Sweep Option */
+
+
+/* Astragal Option */
+.astragal-option{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.astragal-option .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.astragal-option .sel{
+    width: 332px;
+    height: 280px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 4px; 
+}
+.astragal-option .sel.no-vubor{
+    opacity: .5;
+}
+.astragal-option .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.astragal-option .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.astragal-option .sel .ico{
+    width: 328px;
+    height: 243px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+}
+.astragal-option .sel .price{
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 11px;
+}
+.astragal-option .sel .price.no-price{
+    color: #999999;
+}
+/* Astragal Option */
+
+
+/* Select Handle Option */
+.select-handle-option{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.select-handle-option .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.select-handle-option .sel{
+    width: 320px;
+    height: 250px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 4px; 
+}
+.select-handle-option .sel.no-vubor{
+    opacity: .5;
+}
+.select-handle-option .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-handle-option .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.select-handle-option .sel .ico{
+    width: 316px;
+    height: 148px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+    padding-top: 65px;
+}
+.select-handle-option .sel .ico .txt{
+    font: 18px Helvetica-Regular;
+    color: #000;
+    padding-top: 20px;
+}
+.select-handle-option .sel .price{
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 11px;
+}
+.select-handle-option .sel .price.no-price{
+    color: #999999;
+}
+/* Select Handle Option */
+
+/* Door Jambs and Casings */
+.door-jambs-and-casings{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.door-jambs-and-casings .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.door-jambs-and-casings .sel{
+    width: 208px;
+    height: 250px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 8px; 
+}
+.door-jambs-and-casings .sel.no-vubor{
+    opacity: .5;
+}
+.door-jambs-and-casings .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.door-jambs-and-casings .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.door-jambs-and-casings .sel .ico{
+    width: 204px;
+    height: 213px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+}
+.door-jambs-and-casings .sel .ico .padImg{
+    padding-top: 15px;
+}
+.door-jambs-and-casings .sel .ico .txt_2{
+    font: 16px Helvetica-Regular;
+    color: #000;
+}
+.door-jambs-and-casings .sel .price{
+    font: 14px Helvetica-Regular;
+    color: #000;
+    padding-top: 11px;
+}
+.door-jambs-and-casings .sel .price.no-price{
+    color: #999999;
+}
+/* Door Jambs and Casings */
+
+/* Door Jambs and Casings */
+.finish-color{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.finish-color .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.finish-color .sel{
+    width: 212px;
+    height: 220px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 4px; 
+}
+.finish-color .sel.no-vubor{
+    opacity: .5;
+}
+.finish-color .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.finish-color .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.finish-color .sel .ico{
+    width: 204px;
+    height: 216px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+}
+.finish-color .sel .color-1{
+    background: #fefff1;
+}
+.finish-color .sel .color-2{
+    background: #fffccf;
+}
+.finish-color .sel .color-3{
+    background: #f1ead8;
+}
+.finish-color .sel .color-4{
+    background: #fff;
+}
+.finish-color .sel .ico .txt_1{
+    font: 16px Helvetica-Regular;
+    color: #000;
+    padding-top: 188px;
+}
+/* Door Jambs and Casings */
+
+/* Door Jambs and Casings */
+.patina{
+    width: 1025px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 42px;
+}
+.patina .wrapp-sel{
+    text-align: center;
+    margin: 42px 0 0 0;
+}
+.patina .sel{
+    width: 283px;
+    height: 221px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: top;
+    margin: 0 8px; 
+}
+.patina .sel.no-vubor{
+    opacity: .5;
+}
+.patina .sel.vubor > .ico{
+    border: 2px solid #5da4f7;
+}
+.patina .sel:hover > .ico{
+    border: 2px solid #5da4f7;
+}
+.patina .sel .ico{
+    width: 279px;
+    height: 217px;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 3px;
+}
+.patina .sel .gold{
+    background: url(../img/calculate/patina-golf.jpg);
+}
+.patina .sel .silver{
+    background: url(../img/calculate/patina-silver.jpg);
+}
+.patina .sel .ico .txt_2{
+    font: 18px Helvetica-Regular;
+    color: #000;
+    padding-top: 188px;
+    text-align: right;
+    padding-right: 20px;
+}
+/* Door Jambs and Casings */
+
+
+/* Congratulation-bl */
+.grey-bg{
+    background: #f2f2f2;
+}
+.congratulation-bl{
+    width: 1025px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.congratulation-bl h2{
+    font: 24px Helvetica-Regular;
+    color: #000;
+    text-align: center;
+    padding-top: 64px;
+}
+.congratulation-bl h3{
+    font: 18px Helvetica-Regular;
+    color: #545454;
+    text-align: center;
+    padding-top: 8px;
+}
+.congratulation-bl .left-bl{
+    float: left;
+    width: 260px;
+    margin: 60px 0 0 10px;
+}
+.congratulation-bl .foto-bl{
+    width: 260px;
+    height: 242px;
+    padding-top: 18px;
+    background: #fff;
+    text-align: center;
+    border-radius: 3px;
+}
+.congratulation-bl .txt_1{
+    font: 12px Helvetica-Regular;
+    color: #000;
+    padding: 13px 0 0 24px;
+}
+.congratulation-bl .left-bl input{
+    width: 224px;
+    height: 41px;
+    border: 1px solid #a7a7a7;
+    color: #000;
+    padding-left: 16px;
+    margin-top: 7px;
+    margin-left: 9px;
+    font: 18px Helvetica-Regular;
+    border-radius: 6px;
+}
+.congratulation-bl .centr-bl{
+    width: 409px;
+    height: auto;
+    background: #f9f9f9;
+    float: left;
+    padding: 0 18px 20px 18px;
+    margin: 60px 0 0 7px;
+}
+.congratulation-bl .centr-bl .zag{
+    font: 18px Helvetica-Regular;
+    color: #000;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.congratulation-bl table{
+    width: 100%;
+    margin-top: 9px;
+}
+.congratulation-bl table td{
+    font: 12px Helvetica-Regular;
+    color: #6a6a6a;
+    padding: 5px 0;
+}
+.congratulation-bl table td:first-child{
+    padding-left: 16px;
+}
+.congratulation-bl table td:nth-child(3){
+    text-align: right;
+    padding-right: 15px;
+    font: 13px Helvetica-Medium;
+    color: #000;
+}
+.congratulation-bl table tr:nth-child(2n+1){
+    background: #ececec;
+}
+.congratulation-bl .centr-bl .line{
+    width: 100%;
+    height: 1px;
+    background: #707070;
+    margin-top: 10px;
+}
+.congratulation-bl .centr-bl .txt_2{
+    font: 13px Helvetica-Medium;
+    color: #000;
+    padding: 10px 0 0 15px;
+    float: left;
+}
+.congratulation-bl .centr-bl .price{
+    font: 13px Helvetica-Medium;
+    color: #000;
+    padding: 10px 15px 0 0;
+    float: right;
+}
+.congratulation-bl .right-bl{
+    float: left;
+    width: 260px;
+    margin: 60px 0 0 8px;
+    background: #f9f9f9;
+    padding-bottom: 32px;
+}
+.congratulation-bl .right-bl .zag{
+    font: 14px Helvetica-Regular;
+    color: #808080;
+    text-align: center;
+    padding-top: 32px;
+}
+.congratulation-bl .right-bl .qty-bl{
+    margin: 20px 0 0 0;
+}
+.congratulation-bl .right-bl .txt{
+    font: 12px Helvetica-Regular;
+    color: #000;
+    padding-left: 58px;
+    line-height: 38px;
+    float: left;
+}
+.congratulation-bl .right-bl .count{
+    width: 90px;
+    height: 38px;
+    float: left;
+    margin-left: 11px;
+    position: relative;
+}
+.congratulation-bl .right-bl .count input{
+    width: 88px;
+    height: 36px;
+    border: 1px solid #a7a7a7;
+    border-radius: 6px;
+    text-align: center;
+}
+.congratulation-bl .right-bl .count .minus{
+    width: 16px;
+    height: 16px;
+    background: url(../img/calculate/congratulation-minus.png);
+    position: absolute;
+    top: 11px;
+    left: 5px;
+    cursor: pointer;
+}
+.congratulation-bl .right-bl .count .plus{
+    width: 16px;
+    height: 16px;
+    background: url(../img/calculate/congratulation-plus.png);
+    position: absolute;
+    top: 11px;
+    right: 5px;
+    cursor: pointer;
+}
+.congratulation-bl .right-bl .total-bl{
+    margin: 5px 0 0 0;
+}
+.congratulation-bl .right-bl .total-bl .total-price{
+    font: 26.58px Helvetica-Bold;
+    color: #618926;
+    float: left;
+    margin-left: 12px;
+    line-height: 38px;
+}
+.congratulation-bl .right-bl .addcart-btn{
+    width: 146px;
+    height: 41px;
+    border-radius: 5px;
+    background: #5cb85c;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font: 14px Helvetica-Medium;
+    line-height: 41px;
+    clear: both;
+    margin: 12px auto 0 auto;
+}
+.congratulation-bl .right-bl .addcart-btn:hover{
+    background: #76e276;
+}
+.congratulation-bl .right-bl .addcart-btn p:before{
+    content: url(../img/calculate/addcart-btn.png);
+    position: relative;
+    top: 2px;
+    margin-right: 17px;
+}
+/* Congratulation-bl */
+
+
+/* Step Style */
+.step-customize,#step-finish{
+    display: none;
+}
+#step-1{display: block;}
+/* Step Style */
+

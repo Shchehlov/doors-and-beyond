@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
+        <title>Новая страница</title>
+        <link rel="shortcut icon" href="../img/fav.png" type="image/png">
+        <link href="../css/header-footer.css" rel="stylesheet"/>
+        <link href="../css/main.css" rel="stylesheet"/>
+        <link href="../css/account-style.css" rel="stylesheet"/>
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="wrapp320">
+            <!-- Header -->
+            <header class="s-header">
+                <div class="s-header__top">
+                    <div class="container-own">
+                        <button type="button" class="btn-menu"><span class="btn-menu__dash"></span><span class="btn-menu__dash"></span><span class="btn-menu__dash"></span>
+                        </button>
+                        <div class="m-site-mobile">
+                            <ul class="m-site-mobile__list">
+                                <li class="m-site-mobile__item"><a href="#" class="m-site-mobile__link">Interior Doors</a>
+                                </li>
+                                <li class="m-site-mobile__item"><a href="#" class="m-site-mobile__link">Exterior Doors</a>
+                                </li>
+                                <li class="m-site-mobile__item"><a href="#" class="m-site-mobile__link">Door Handles</a>
+                                </li>
+                                <li class="m-site-mobile__item"><a href="#" class="m-site-mobile__link">Fireplaces</a>
+                                </li>
+                                <li class="m-site-mobile__item"><a href="#" class="m-site-mobile__link">Info</a>
+                                </li>
+                                <li class="m-site-mobile__item"><a href="#" class="m-site-mobile__link">Testimonials</a>
+                                </li>
+                                <li class="m-site-mobile__item _no-border"><a href="#" class="m-site-mobile__link">Contact Us</a>
+                                </li>
+                                <li class="m-site-mobile__item _no-border">
+                                    <form class="f-search-mobile f-default">
+                                        <input type="text" name="" placeholder="Search Product" class="f-search-mobile__field" />
+                                        <button class="f-search-mobile__submit">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" class="svg-search">
+                                                <path d="M495 466.2L377.2 348.4c29.2-35.6 46.8-81.2 46.8-130.9C424 103.5 331.5 11 217.5 11 103.4 11 11 103.5 11 217.5S103.4 424 217.5 424c49.7 0 95.2-17.5 130.8-46.7L466.1 495c8 8 20.9 8 28.9 0 8-7.9 8-20.9 0-28.8zm-277.5-83.3C126.2 382.9 52 308.7 52 217.5S126.2 52 217.5 52C308.7 52 383 126.3 383 217.5s-74.3 165.4-165.5 165.4z"></path>
+                                            </svg>
+                                        </button>
+                                    </form>
+                                </li>
+                            </ul>
+                            <a href="#" class="a-logo">
+                                <img src="../img/logo.png" />
+                            </a>
+                        </div>
+                        <ul class="l-shipping">
+                            <li class="l-shipping__item _title">Shipping:</li>
+                            <li class="l-shipping__item">
+                                <a href="#" class="l-shipping__link">
+                                    <img src="../img/flag-usa.jpg" alt="" />National shipping</a>
+                            </li>
+                            <li class="l-shipping__item">
+                                <a href="#" class="l-shipping__link">
+                                    <img src="../img/flag-canada.jpg" alt="" />Shipping to canada</a>
+                            </li>
+                            <li class="l-shipping__item">
+                                <a href="#" class="l-shipping__link">
+                                    <img src="../img/flag-earth.png" alt="" />World Wide Shipping</a>
+                            </li>
+                        </ul>
+                        <a href="tel:8665536677" class="btn-phone">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 578.106 578.106" class="svg-phone">
+                                <path d="M577.83 456.128c1.225 9.385-1.635 17.545-8.568 24.48l-81.396 80.78c-3.672 4.08-8.465 7.552-14.38 10.405-5.917 2.857-11.73 4.693-17.44 5.508-.408 0-1.635.11-3.676.31-2.037.21-4.69.31-7.953.31-7.754 0-20.3-1.32-37.64-3.98s-38.556-9.18-63.646-19.58c-25.09-10.4-53.55-26.01-85.37-46.82-31.82-20.8-65.69-49.36-101.59-85.68-28.56-28.15-52.22-55.08-70.99-80.78-18.76-25.7-33.86-49.47-45.28-71.3-11.43-21.83-20-41.61-25.71-59.36s-9.59-33.045-11.63-45.9-2.86-22.95-2.45-30.3c.41-7.343.612-11.423.612-12.24.813-5.71 2.65-11.525 5.505-17.44S12.55 93.83 16.63 90.156l81.39-81.4C103.73 3.046 110.26.19 117.603.19c5.304 0 9.996 1.53 14.076 4.59s7.55 6.834 10.405 11.322l65.484 124.236c3.67 6.528 4.69 13.668 3.06 21.42-1.634 7.752-5.1 14.28-10.406 19.584l-29.988 29.988c-.816.816-1.53 2.142-2.142 3.978s-.918 3.366-.918 4.59c1.632 8.568 5.304 18.36 11.016 29.376 4.896 9.792 12.444 21.726 22.644 35.802s24.684 30.293 43.452 48.653c18.36 18.77 34.68 33.35 48.96 43.76 14.274 10.4 26.212 18.05 35.8 22.95 9.59 4.89 16.94 7.85 22.03 8.87l7.65 1.53c.82 0 2.15-.31 3.98-.92 1.84-.62 3.17-1.33 3.98-2.15l34.89-35.498c7.35-6.52 15.91-9.79 25.71-9.79 6.937 0 12.442 1.23 16.522 3.68h.61l118.11 69.76c8.57 5.31 13.67 12.04 15.305 20.2z"></path>
+                            </svg><span class="btn-phone__text">(866) 55-DOORS (36677)</span>
+                        </a>
+                        <ul role="navigation" class="m-controls">
+                            <li class="m-controls__item">
+                                <a href="#" class="m-controls__link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 44 53" class="svg-user">
+                                        <path d="M39.6 42.8L30 38c-1.2-.6-2-1.9-2-3.3V31c.3-.3.6-.7.9-1.2 1.3-1.8 2.3-3.9 3-6 1.2-.4 2.1-1.5 2.1-2.9v-4c0-.9-.4-1.7-1-2.2V9s1.2-9-11-9-11 9-11 9v5.8c-.6.5-1 1.3-1 2.2v4c0 1.1.6 2 1.4 2.5 1 4.4 3.6 7.5 3.6 7.5v3.7c0 1.3-.7 2.6-1.9 3.2l-8.9 4.9c-2.6 1.4-4.2 4.1-4.2 7V53h44v-3c0-3.1-1.7-5.9-4.4-7.2z"></path>
+                                    </svg>Account Login</a>
+                            </li>
+                            <li class="m-controls__item"><a href="#" class="m-controls__link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.27 98.27" class="svg-help">
+                                <g>
+                                    <path d="M49.135,0C21.998,0,0,21.999,0,49.135S21.998,98.27,49.135,98.27c27.136,0,49.134-21.999,49.134-49.135S76.27,0,49.135,0z    M53.234,82.086c-1.539,1.521-3.684,2.293-6.369,2.293c-2.746,0-4.918-0.754-6.456-2.241c-1.545-1.495-2.328-3.604-2.328-6.269   c0-2.754,0.769-4.887,2.284-6.336c1.51-1.44,3.696-2.172,6.5-2.172c2.714,0,4.861,0.746,6.386,2.219   c1.528,1.479,2.304,3.596,2.304,6.289C55.555,78.472,54.773,80.564,53.234,82.086z M68.424,40.295   c-1.572,2.511-4.566,5.354-8.9,8.45c-2.817,2.083-4.627,3.684-5.355,4.74c-0.686,0.995-1.034,2.346-1.034,4.014v1.98   c0,0.828-0.672,1.5-1.5,1.5H41.045c-0.828,0-1.5-0.672-1.5-1.5v-2.621c0-3.041,0.663-5.732,1.972-8   c1.296-2.244,3.665-4.638,7.043-7.116c3.135-2.239,5.209-4.06,6.183-5.422c0.923-1.297,1.392-2.768,1.392-4.369   c0-1.742-0.615-3.024-1.881-3.92c-1.329-0.941-3.246-1.419-5.698-1.419c-4.252,0-9.173,1.366-14.624,4.061   c-0.739,0.366-1.639,0.064-2.008-0.676l-4.316-8.67c-0.36-0.725-0.082-1.604,0.63-1.988c6.689-3.614,13.864-5.447,21.325-5.447   c6.421,0,11.613,1.578,15.434,4.69c3.864,3.15,5.825,7.402,5.825,12.639C70.82,34.697,70.014,37.749,68.424,40.295z" fill="#f15221"/>
+                                </g>
+                                </svg>Help Center</a>
+                            </li>
+                            <li class="m-controls__item _cart">
+                                <a href="#" class="m-controls__link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 449.8" class="svg-cart">
+                                        <path d="M239.7 404.7c0 24.8-20.2 45-45 45s-45-20.2-45-45 20.2-45 45-45 45 20.2 45 45zm149.9-45c-24.8 0-45 20.2-45 45s20.2 45 45 45 45-20.2 45-45c.1-24.8-20.1-45-45-45zM506.3 66.6c-4.8-5.9-11.9-9.3-19.5-9.3H95.3L87.4 19c-1.7-8-7.1-14.7-14.6-18H17.6C11.2-1.7 3.8 1.2 1 7.6c-2.8 6.4.2 13.8 6.5 16.5h55.2l60.8 295.3c2.4 11.6 12.8 20.1 24.6 20.1h301.2c6.9 0 12.6-5.6 12.6-12.6s-5.6-12.6-12.6-12.6H148.2l-7.4-35.9 301.9-16c11.9 0 22.2-8.4 24.6-20.1l44.2-154.7c1.5-7.4-.4-15.1-5.2-21z"></path>
+                                    </svg>My Cart <span>(20)</span>
+                                </a>
+                            </li>
+                            <li class="m-controls__item"><a href="#" class="m-controls__link">
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 492.719 492.719" class="svg-hard">
+                                    <path d="M492.719,166.008c0-73.486-59.573-133.056-133.059-133.056c-47.985,0-89.891,25.484-113.302,63.569    c-23.408-38.085-65.332-63.569-113.316-63.569C59.556,32.952,0,92.522,0,166.008c0,40.009,17.729,75.803,45.671,100.178 l188.545,188.553c3.22,3.22,7.587,5.029,12.142,5.029c4.555,0,8.922-1.809,12.142-5.029l188.545-188.553    C474.988,241.811,492.719,206.017,492.719,166.008z"/>
+                                </svg>My Wishlist ( 20 )</a>
+                            </li>
+                        </ul>
+                        <div class="m-controls-mobile">
+                            <ul role="navigation" class="m-controls">
+                                <li class="m-controls__item">
+                                    <a href="#" class="m-controls__link">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 44 53" class="svg-user">
+                                            <path d="M39.6 42.8L30 38c-1.2-.6-2-1.9-2-3.3V31c.3-.3.6-.7.9-1.2 1.3-1.8 2.3-3.9 3-6 1.2-.4 2.1-1.5 2.1-2.9v-4c0-.9-.4-1.7-1-2.2V9s1.2-9-11-9-11 9-11 9v5.8c-.6.5-1 1.3-1 2.2v4c0 1.1.6 2 1.4 2.5 1 4.4 3.6 7.5 3.6 7.5v3.7c0 1.3-.7 2.6-1.9 3.2l-8.9 4.9c-2.6 1.4-4.2 4.1-4.2 7V53h44v-3c0-3.1-1.7-5.9-4.4-7.2z"></path>
+                                        </svg>Account Login</a>
+                                </li>
+                                <li class="m-controls__item">
+                                    <a href="#" class="m-controls__link">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.27 98.27" class="svg-help">
+                                            <g>
+                                                <path d="M49.135,0C21.998,0,0,21.999,0,49.135S21.998,98.27,49.135,98.27c27.136,0,49.134-21.999,49.134-49.135S76.27,0,49.135,0z    M53.234,82.086c-1.539,1.521-3.684,2.293-6.369,2.293c-2.746,0-4.918-0.754-6.456-2.241c-1.545-1.495-2.328-3.604-2.328-6.269   c0-2.754,0.769-4.887,2.284-6.336c1.51-1.44,3.696-2.172,6.5-2.172c2.714,0,4.861,0.746,6.386,2.219   c1.528,1.479,2.304,3.596,2.304,6.289C55.555,78.472,54.773,80.564,53.234,82.086z M68.424,40.295   c-1.572,2.511-4.566,5.354-8.9,8.45c-2.817,2.083-4.627,3.684-5.355,4.74c-0.686,0.995-1.034,2.346-1.034,4.014v1.98   c0,0.828-0.672,1.5-1.5,1.5H41.045c-0.828,0-1.5-0.672-1.5-1.5v-2.621c0-3.041,0.663-5.732,1.972-8   c1.296-2.244,3.665-4.638,7.043-7.116c3.135-2.239,5.209-4.06,6.183-5.422c0.923-1.297,1.392-2.768,1.392-4.369   c0-1.742-0.615-3.024-1.881-3.92c-1.329-0.941-3.246-1.419-5.698-1.419c-4.252,0-9.173,1.366-14.624,4.061   c-0.739,0.366-1.639,0.064-2.008-0.676l-4.316-8.67c-0.36-0.725-0.082-1.604,0.63-1.988c6.689-3.614,13.864-5.447,21.325-5.447   c6.421,0,11.613,1.578,15.434,4.69c3.864,3.15,5.825,7.402,5.825,12.639C70.82,34.697,70.014,37.749,68.424,40.295z" fill="#f15221"/>
+                                            </g>
+                                        </svg>Help Center</a>
+                                </li>
+                                <li class="m-controls__item _cart">
+                                    <a href="#" class="m-controls__link">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 449.8" class="svg-cart">
+                                            <path d="M239.7 404.7c0 24.8-20.2 45-45 45s-45-20.2-45-45 20.2-45 45-45 45 20.2 45 45zm149.9-45c-24.8 0-45 20.2-45 45s20.2 45 45 45 45-20.2 45-45c.1-24.8-20.1-45-45-45zM506.3 66.6c-4.8-5.9-11.9-9.3-19.5-9.3H95.3L87.4 19c-1.7-8-7.1-14.7-14.6-18H17.6C11.2-1.7 3.8 1.2 1 7.6c-2.8 6.4.2 13.8 6.5 16.5h55.2l60.8 295.3c2.4 11.6 12.8 20.1 24.6 20.1h301.2c6.9 0 12.6-5.6 12.6-12.6s-5.6-12.6-12.6-12.6H148.2l-7.4-35.9 301.9-16c11.9 0 22.2-8.4 24.6-20.1l44.2-154.7c1.5-7.4-.4-15.1-5.2-21z"></path>
+                                        </svg>
+                                        My Cart <span>(20)</span>
+                                    </a>
+                                </li>
+                                <li class="m-controls__item">
+                                    <a href="#" class="m-controls__link">
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 492.719 492.719" class="svg-hard">
+                                            <path d="M492.719,166.008c0-73.486-59.573-133.056-133.059-133.056c-47.985,0-89.891,25.484-113.302,63.569    c-23.408-38.085-65.332-63.569-113.316-63.569C59.556,32.952,0,92.522,0,166.008c0,40.009,17.729,75.803,45.671,100.178 l188.545,188.553c3.22,3.22,7.587,5.029,12.142,5.029c4.555,0,8.922-1.809,12.142-5.029l188.545-188.553    C474.988,241.811,492.719,206.017,492.719,166.008z"/>
+                                        </svg>My Wishlist ( 20 )</a>
+                                </li>
+                            </ul>
+                            <a href="#" class="a-logo">
+                                <img src="../img/logo.png" />
+                            </a>
+                        </div>
+                        <button type="button" class="btn-basket _filled">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 449.8" class="svg-cart">
+                                <path d="M239.7 404.7c0 24.8-20.2 45-45 45s-45-20.2-45-45 20.2-45 45-45 45 20.2 45 45zm149.9-45c-24.8 0-45 20.2-45 45s20.2 45 45 45 45-20.2 45-45c.1-24.8-20.1-45-45-45zM506.3 66.6c-4.8-5.9-11.9-9.3-19.5-9.3H95.3L87.4 19c-1.7-8-7.1-14.7-14.6-18H17.6C11.2-1.7 3.8 1.2 1 7.6c-2.8 6.4.2 13.8 6.5 16.5h55.2l60.8 295.3c2.4 11.6 12.8 20.1 24.6 20.1h301.2c6.9 0 12.6-5.6 12.6-12.6s-5.6-12.6-12.6-12.6H148.2l-7.4-35.9 301.9-16c11.9 0 22.2-8.4 24.6-20.1l44.2-154.7c1.5-7.4-.4-15.1-5.2-21z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="s-header__middle">
+                    <div class="container-own">
+                        <a href="#" class="a-logo">
+                            <img src="../img/logo.png" />
+                        </a>
+                        <form class="f-search">
+                            <input type="text" placeholder="Search" class="f-search__field" />
+                            <button class="f-search__btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" class="svg-search">
+                                    <path d="M495 466.2L377.2 348.4c29.2-35.6 46.8-81.2 46.8-130.9C424 103.5 331.5 11 217.5 11 103.4 11 11 103.5 11 217.5S103.4 424 217.5 424c49.7 0 95.2-17.5 130.8-46.7L466.1 495c8 8 20.9 8 28.9 0 8-7.9 8-20.9 0-28.8zm-277.5-83.3C126.2 382.9 52 308.7 52 217.5S126.2 52 217.5 52C308.7 52 383 126.3 383 217.5s-74.3 165.4-165.5 165.4z"></path>
+                                </svg>
+                            </button>
+                        </form>
+                        <ul class="l-cta">
+                            <li class="l-cta__item">
+                                <a href="tel:8665536677" class="l-cta__link _phone">
+                                    <img src="../img/cta-call.png" alt="" class="l-cta__img" /><span class="l-cta__title">(866) 55-DOORS (36677)</span><span class="l-cta__subtitle">Call center hours</span>
+                                </a>
+                                <div class="hover-bl">
+                                    <div class="decor"></div>
+                                    <p class="zag">Call center hours are:</p>
+                                    <p class="txt_1">Customer Service</p>
+                                    <p class="txt_2">Monday to Friday: 9 am - 6 pm (EST) Saturday, Sunday: Closed</p>
+                                    <p class="txt_1">Sales</p>
+                                    <p class="txt_2">Monday to Friday: 9 am to 6 pm (EST) Saturday & Sunday: 10 am to 6 pm (EST)</p>
+                                    <a href="" class="views-details">View Showroom Details</a>
+                                </div>
+                            </li>
+                            <li class="l-cta__item">
+                                <a href="#" class="l-cta__link">
+                                    <img src="../img/cta-showroom.png" alt="" class="l-cta__img" /><span class="l-cta__title">Showroom</span><span class="l-cta__subtitle">Hours of operations</span>
+                                </a>
+                                <div class="hover-bl">
+                                    <div class="decor"></div>
+                                    <p class="zag">Showroom hours are:</p>
+                                    <p class="txt_1">Queens, NY</p>
+                                    <p class="txt_2">Mon. - Fri.: 10AM - 8PM<br>Sat. - Sun.: 10AM - 6PM</p>
+                                    <p class="txt_1">Rahway, NJ</p>
+                                    <p class="txt_2">Mon. - Fri.: 10AM - 8PM<br>Sat. - Sun.: 10AM - 6PM</p>
+                                    <p class="txt_1">San Diego, CA</p>
+                                    <p class="txt_2">Mon. - Fri.: 10AM - 8PM<br>Sat. - Sun.: 10AM - 6PM</p>
+                                </div>
+                            </li>
+                            <li class="l-cta__item">
+                                <a href="#" class="l-cta__link">
+                                    <img src="../img/cta-chat.png" alt="" class="l-cta__img" /><span class="l-cta__title">Live chat</span><span class="l-cta__subtitle">We online now</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="s-header__bottom">
+                    <div class="container-own">
+                        <nav role="navigation" class="m-site">
+                            <ul class="m-site__list">
+                                <li class="m-site__item _dropable"><a href="#" class="m-site__link"><span>Interior Doors</span></a>
+                                    <div class="m-site__drop">
+                                        <div class="m-site__drop-container">
+                                            <div class="m-site__drop-aside">
+                                                <ul class="m-site__aside-list">
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link _active">Exotic Wood Veneer Collection</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">SmartPro Collection</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">High Endurance Collection</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Palladio Collection</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Shaker Style Collection</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Massello di Ontano Collection</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Massello di Rovere Collection</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Interior Laminate Doors</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Interior Door Hardware</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Base Moldings</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Modern Interior Doors</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Traditional Doors</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">French Doors</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Interior Pocket Doors</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Jeld Wen Doors</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Closet Doors</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="m-site__drop-content">
+                                                <ul class="m-site__content-list">
+                                                    <li class="m-site__content-item _active">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/exotic-wood-veneer" class="b-drop-content__title-link">Exotic Wood Veneer Collection</a><a href="http://doorsandbeyond.com/interior-doors/exotic-wood-veneer" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/exotic-wood-veneer" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/exotic-wood-veneer" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/exotic-wood-veneer" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-1-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Classica Lux Interior Door Wenge</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/exotic-wood-veneer" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-1-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Modern Lux Interior Door Wenge</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/exotic-wood-veneer" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-1-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Maximum 201 Interior Door Wenge</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item ">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/smartpro-collection" class="b-drop-content__title-link">SmartPro Collection</a><a href="http://doorsandbeyond.com/interior-doors/smartpro-collection" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/smartpro-collection" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/smartpro-collection" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/smartpro-collection" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-2-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni SmartPro 4H Polar White Modern Interior Door</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/smartpro-collection" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-2-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni SmartPro Polar White Modern Interior Door</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/smartpro-collection" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-2-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni SmartPro Black Glass Polar White Modern</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/high-endurance-collection" class="b-drop-content__title-link">High Endurance Collection</a><a href="http://doorsandbeyond.com/interior-doors/high-endurance-collection" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/high-endurance-collection" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/high-endurance-collection" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/high-endurance-collection" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-3-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Unica Bianco Noble Modern Interior Door</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/high-endurance-collection" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-3-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Mirella Bianco Noble Modern Interior Door</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/high-endurance-collection" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-3-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Unica Gray Oak Modern Interior Door</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/palladio-collection" class="b-drop-content__title-link">Palladio Collection</a><a href="http://doorsandbeyond.com/interior-doors/palladio-collection" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/palladio-collection" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/palladio-collection" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/palladio-collection" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-4-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Palladio 4H Modern Interior Door Noce</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/palladio-collection" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-4-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Palladio 4H Modern Interior Door Shambor</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/palladio-collection" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-4-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Palladio 4H Modern Interior Door Gray Oak</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/shaker-style" class="b-drop-content__title-link">Shaker Style Collection</a><a href="http://doorsandbeyond.com/interior-doors/shaker-style" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/shaker-style" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/shaker-style" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/shaker-style" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-5-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Shaker 1 Primed Interior Door</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/shaker-style" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-5-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Shaker 3 Interior Door Bianco Noble</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/shaker-style" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-5-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Shaker 3G Vetro Interior Door Bianco Noble</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/massello-di-ontano" class="b-drop-content__title-link">Massello di Ontano Collection</a><a href="http://doorsandbeyond.com/interior-doors/massello-di-ontano" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/massello-di-ontano" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/massello-di-ontano" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/massello-di-ontano" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-6-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Royal</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/massello-di-ontano" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-6-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Manhattan</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/massello-di-ontano" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-6-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Crown</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/massello-di-rovere-collection" class="b-drop-content__title-link">Massello di Rovere Collection</a><a href="http://doorsandbeyond.com/interior-doors/massello-di-rovere-collection" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/massello-di-rovere-collection" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/massello-di-rovere-collection" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/massello-di-rovere-collection" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-7-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Ego E6113 Interior Door Honey Oak</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/massello-di-rovere-collection" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-7-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Quadro Q6012 Interior Door Honey Oak</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/massello-di-rovere-collection" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-7-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Quadro Q6013 Interior Door Honey Oak</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/interior-laminate-doors" class="b-drop-content__title-link">Interior Laminate Doors</a><a href="http://doorsandbeyond.com/interior-doors/interior-laminate-doors" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-laminate-doors" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-laminate-doors" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-laminate-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-8-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Nova M34 Black Walnut Laminate Interior Door</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-laminate-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-8-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Nova M34 Sapele Laminate Interior Door</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-laminate-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-8-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Nova M61 Sapele Laminate Interior Door</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/interior-door-hardware" class="b-drop-content__title-link">Interior Door Hardware</a><a href="http://doorsandbeyond.com/interior-doors/interior-door-hardware" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-door-hardware" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-9-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Duo Door Stop</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-door-hardware" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-9-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Johnson Hardware 1500 Series</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-door-hardware" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-9-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Johnson Hardware 2060 Series</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/interior-door-hardware" class="b-drop-content__title-link">Base Moldings</a><a href="http://doorsandbeyond.com/interior-doors/interior-door-hardware" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-door-hardware" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-10-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Base Moulding Gray Oak</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-door-hardware" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-10-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Base Moulding Bianco Noble</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-door-hardware" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-10-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Base Moulding Wenge</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/modern-interior-doors" class="b-drop-content__title-link">Modern Interior Doors</a><a href="http://doorsandbeyond.com/interior-doors/modern-interior-doors" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/modern-interior-doors" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/modern-interior-doors" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/modern-interior-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-11-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Classica Lux Interior Door Wenge</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/modern-interior-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-11-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni SmartPro 4H Polar White Modern Interior Door</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/modern-interior-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-11-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Palladio 4H Modern Interior Door Noce</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/traditional-doors" class="b-drop-content__title-link">Traditional Doors</a><a href="http://doorsandbeyond.com/interior-doors/traditional-doors" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/traditional-doors" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/traditional-doors" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/traditional-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-12-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Palazzo Interior Door</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/traditional-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-12-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Royal</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/traditional-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-12-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Crown</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/french-doors" class="b-drop-content__title-link">French Doors</a><a href="" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/french-doors" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/french-doors" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/french-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-13-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Royal French 02</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/french-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-13-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Royal French 01</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/french-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-13-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Modern Lux Interior Door Wenge</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/interior-pocket-doors" class="b-drop-content__title-link">Interior Pocket Doors</a><a href="http://doorsandbeyond.com/interior-doors/interior-pocket-doors" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-pocket-doors" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-pocket-doors" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-pocket-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-14-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Classica Lux Interior Pocket Door Wenge</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-pocket-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-14-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni SmartPro 4H Pocket Door Polar White</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/interior-pocket-doors" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/doors-14-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Arazzinni Palladio Pocket Interior Door Noce</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/interior-doors/jeld-wen-doors" class="b-drop-content__title-link">Jeld Wen Doors</a><a href="http://doorsandbeyond.com/interior-doors/jeld-wen-doors" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-doors/jeld-wen-doors">
+                                                                        <img src="../img/nav-img/doors-15.jpg" alt="">
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item closet-doors">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/interior-closet-doors" class="closet-bl sl-carousel__item">
+                                                                        <div class="name-bl">
+                                                                            <p class="zag">Closet Doors</p>
+                                                                            <div class="open-btn"><p>open collection</p></div>
+                                                                        </div>
+                                                                        <img src="../img/nav-img/doors-16.jpg" alt="">
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="m-site__item"><a href="#" class="m-site__link">Exterior Doors</a>
+                                </li>
+                                <li class="m-site__item _dropable _flow"><a href="#" class="m-site__link"><span>Door Handles</span></a>
+                                    <div class="m-site__drop">
+                                        <ul class="m-site__submenu-list">
+                                            <li class="m-site__submenu-item">
+                                                <a href="#">
+                                                    <img src="../img/nova.jpg" />
+                                                </a>
+                                            </li>
+                                            <li class="m-site__submenu-item">
+                                                <a href="#">
+                                                    <img src="../img/emtek.jpg" />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="m-site__item _dropable"><a href="#" class="m-site__link"><span>Fireplaces</span></a>
+                                    <div class="m-site__drop">
+                                        <div class="m-site__drop-container">
+                                            <div class="m-site__drop-aside">
+                                                <ul class="m-site__aside-list">
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link _active">Freestanding Ethanol Fireplaces</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Fireboxes</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Wall Mounted Ethanol Fireplaces</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Recessed Ethanol Fireplaces</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Tabletop Ethanol Fireplaces</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Ethanol Burners</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Ethanol Fireplace Grates</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Fireplace Accessories</a>
+                                                    </li>
+                                                    <li class="m-site__aside-item"><a href="#" class="m-site__aside-link">Bio Ethanol Fuel</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="m-site__drop-content">
+                                                <ul class="m-site__content-list">
+                                                    <li class="m-site__content-item _active">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/modern-fireplaces/freestanding-ethanol-fireplaces" class="b-drop-content__title-link">Freestanding Ethanol Fireplaces</a><a href="http://doorsandbeyond.com/modern-fireplaces/freestanding-ethanol-fireplaces" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/freestanding-ethanol-fireplaces" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/freestanding-ethanol-fireplaces" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/freestanding-ethanol-fireplaces" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-1-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Tempo - Freestanding Ventless Ethanol Fireplace</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/freestanding-ethanol-fireplaces" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-1-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Mecca - Freestanding Ventless Ethanol Fireplace</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/freestanding-ethanol-fireplaces" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-1-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Cube XL - Freestanding Ethanol Fireplace</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/modern-fireplaces/fireboxes" class="b-drop-content__title-link">Fireboxes</a><a href="http://doorsandbeyond.com/modern-fireplaces/fireboxes" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/fireboxes" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-2-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Fireplace Insert FB3600-D</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/fireboxes" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-2-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Fireplace Insert FB3600-S</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/fireboxes" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-2-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Fireplace Insert FB4800-D</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/modern-fireplaces/wall-mounted-ethanol-fireplaces" class="b-drop-content__title-link">Wall Mounted Ethanol Fireplaces</a><a href="http://doorsandbeyond.com/modern-fireplaces/wall-mounted-ethanol-fireplaces" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/wall-mounted-ethanol-fireplaces" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-3-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Magnum - Wall Mounted Ethanol Fireplace</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/wall-mounted-ethanol-fireplaces" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-3-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Luna - Wall Mounted Ethanol Fireplace</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/wall-mounted-ethanol-fireplaces" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-3-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Melina - Wall Mounted Ethanol Fireplace</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/modern-fireplaces/tabletop-ethanol-fireplaces" class="b-drop-content__title-link">Tabletop Ethanol Fireplaces</a><a href="http://doorsandbeyond.com/modern-fireplaces/tabletop-ethanol-fireplaces" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/tabletop-ethanol-fireplaces" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/tabletop-ethanol-fireplaces" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/tabletop-ethanol-fireplaces" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-4-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Cube - Tabletop Ethanol Fireplace</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/tabletop-ethanol-fireplaces" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-4-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Harbor - White Tabletop Ventless Ethanol Fireplace</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/tabletop-ethanol-fireplaces" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-4-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Liberty - Black Tabletop Ventless Ethanol Fireplace</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/modern-fireplaces/recessed-ethanol-fireplaces" class="b-drop-content__title-link">Recessed Ethanol Fireplaces</a><a href="http://doorsandbeyond.com/modern-fireplaces/recessed-ethanol-fireplaces" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/recessed-ethanol-fireplaces" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/recessed-ethanol-fireplaces" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/recessed-ethanol-fireplaces" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-5-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Villa Mini - Recessed Ethanol Fireplace with Safety Glass Barrie</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/recessed-ethanol-fireplaces" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-5-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Villa Mini - Recessed Ethanol Fireplace</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/recessed-ethanol-fireplaces" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-5-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Bellezza - Recessed Ethanol Fireplace</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/modern-fireplaces/ethanol-burners" class="b-drop-content__title-link">Ethanol Burners</a><a href="http://doorsandbeyond.com/modern-fireplaces/ethanol-burners" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/ethanol-burners" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-6-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">EB2100 - Ethanol Fireplace Burner Insert</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/ethanol-burners" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-6-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">EB2400 - Ethanol Fireplace Burner Insert</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/ethanol-burners" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-6-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">EB3600 - Ethanol Fireplace Burner Insert</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/modern-fireplaces/ethanol-fireplace-grates" class="b-drop-content__title-link">Ethanol Fireplace Grates</a><a href="http://doorsandbeyond.com/modern-fireplaces/ethanol-fireplace-grates" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/ethanol-fireplace-grates" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/ethanol-fireplace-grates" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/ethanol-fireplace-grates" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-7-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">EBG1212 Ethanol Fireplace Grate</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/ethanol-fireplace-grates" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-7-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">EBG150 - Ethanol Fireplace Grate</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/ethanol-fireplace-grates" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-7-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">EBG300 - Ethanol Fireplace Grate</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/modern-fireplaces/fireplace-accessories" class="b-drop-content__title-link">Fireplace Accessories</a><a href="http://doorsandbeyond.com/modern-fireplaces/fireplace-accessories" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/fireplace-accessories" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/fireplace-accessories" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/fireplace-accessories" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-8-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Ceramic Fireplace Wood Log Set - 9pcs</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/fireplace-accessories" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-8-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Grey Ceramic Fireplace Pebble Set - 24pcs</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/fireplace-accessories" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-8-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">White Ceramic Fireplace Pebble Set - 24pcs</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="m-site__content-item">
+                                                        <div class="b-drop-content">
+                                                            <div class="b-drop-content__top"><a href="http://doorsandbeyond.com/modern-fireplaces/bio-ethanol-fuel" class="b-drop-content__title-link">Bio Ethanol Fuel</a><a href="http://doorsandbeyond.com/modern-fireplaces/bio-ethanol-fuel" class="b-drop-content__more"><span class="_wide">Click to see more</span><span class="_narrow">See more</span></a>
+                                                            </div>
+                                                            <div class="b-drop-content__slider">
+                                                                <div class="sl-carousel">
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/bio-ethanol-fuel" class="slick-arrow slick-prev"></a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/bio-ethanol-fuel" class="slick-arrow slick-next"></a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/bio-ethanol-fuel" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-9-1.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Bio Ethanol Fireplace Fuel - 12 Pack</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/bio-ethanol-fuel" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-9-2.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Bio Ethanol Fireplace Fuel - 6 Pack</h2>
+                                                                    </a>
+                                                                    <a href="http://doorsandbeyond.com/modern-fireplaces/bio-ethanol-fuel" class="sl-carousel__item">
+                                                                        <div class="ProductImage">
+                                                                            <img src="../img/nav-img/fireplaces-9-3.jpg" alt="" class="img-responsive img-thumbnail img-thumbnail-nb" />
+                                                                        </div>
+                                                                        <h2 class="product-name">Bio Ethanol Fireplace Fuel - 24 Pack</h2>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="m-site__item _dropable _flow"><a href="#" class="m-site__link"><span>Info</span></a>
+                                    <div class="m-site__drop">
+                                        <ul class="m-site__submenu-list">
+                                            <li class="m-site__submenu-item"><a href="#">FAQ</a>
+                                            </li>
+                                            <li class="m-site__submenu-item"><a href="#">Downloads</a>
+                                            </li>
+                                            <li class="m-site__submenu-item"><a href="#">Pre-Hanting Information</a>
+                                            </li>
+                                            <li class="m-site__submenu-item"><a href="#">HD Product Videos</a>
+                                            </li>
+                                            <li class="m-site__submenu-item"><a href="#">Shipping and Handling</a>
+                                            </li>
+                                            <li class="m-site__submenu-item"><a href="#">Returns & Terms and Conditions</a>
+                                            </li>
+                                            <li class="m-site__submenu-item"><a href="#">How we works</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="m-site__item"><a href="#" class="m-site__link">Testimonials</a>
+                                </li>
+                                <li class="m-site__item"><a href="#" class="m-site__link">News</a>
+                                </li>
+                                <li class="m-site__item"><a href="#" class="m-site__link">Contact Us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- Header -->
+        
+        <div class="broad-bl">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li class="razd"></li>
+                <li><a href="">Interior Doors</a></li>
+                <li class="razd"></li>
+                <li class="active">Exotic Wood Veneer Collection</li>
+            </ul>
+        </div>
+
+        <div class="account-bl">
+            <div class="menu-account">
+                <p class="desc">My Account</p>
+                <ul class="menu">
+                    <a href=""><li>Account Overview</li></a>
+                    <a href=""><li>Shipping Address</li></a>
+                    <a href="" class="active"><li>Payment Information</li></a>
+                    <a href=""><li>My Profile</li></a>
+                    <a href=""><li>My Wishlist (20)</li></a>
+                    <a href=""><li>Saved Shopping Carts</li></a>
+                    <a href=""><li>Order History</li></a>
+                    <a href=""><li>Logout</li></a>
+                </ul>
+            </div>
+            <div class="payment-information">
+                <p class="desc">Your Payment Information</p>
+                <p class="txt_1">You are logged in as mailfordesign@gmail.com</p>
+                <a href="" class="logout">Logout?</a>
+                <div class="payment-blocks">
+                    <div class="payment-bl">
+                        <p class="primary-desc">Primary Shipping Address</p>
+                        <p class="txt">Sergey Ivanov</p>
+                        <p class="txt">103 Lindbergh ave.</p>
+                        <p class="txt">Staten island , NY 10306</p>
+                        <p class="btn"><a href="" class="edit">Edit</a><span>|</span><a href="" class="delete">Delete</a></p>
+                    </div>
+                </div>
+                <button class="new-address-btn">ADD NEW BILLING ADDRESS</button>
+                <div class="new-address-form">
+                    <p class="zag">NEW PAYMENT INFORMATION</p>
+                    <form action="">
+                        <div class="col-1">
+                        <p><input type="text" placeholder="First Name"></p>
+                        <p><input type="text" placeholder="Last Name"></p>
+                        <p><input type="text" placeholder="Company Name"></p>
+                        <p>
+                            <select name="" id="">
+                                <option value="">Select Country...</option>
+                                <option value="">USA</option>
+                                <option value="">Canada</option>
+                                <option value="">Ireland</option>
+                            </select>
+                        </p>
+                        <p><input type="text" placeholder="Address"></p>
+                        <p><input type="text" placeholder="Address Continued"></p>
+                        <p><input type="text" placeholder="City"></p>
+                        <p>
+                            <select name="" id=""><option value="" selected="">Select State/Province...</option><option value="AK">Alaska</option><option value="AL">Alabama</option><option value="AR">Arkansas</option><option value="AS">American Samoa</option><option value="AZ">Arizona</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DC">District of Columbia</option><option value="DE">Delaware</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="GU">Guam</option><option value="HI">Hawaii</option><option value="IA">Iowa</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="MA">Massachusetts</option><option value="MD">Maryland</option><option value="ME">Maine</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MO">Missouri</option><option value="MP">Northern Mariana Islands</option><option value="MS">Mississippi</option><option value="MT">Montana</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="NE">Nebraska</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NV">Nevada</option><option value="NY">New York</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="PR">Puerto Rico</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VA">Virginia</option><option value="VI">U.S. Virgin Islands</option><option value="VT">Vermont</option><option value="WA">Washington</option><option value="WI">Wisconsin</option><option value="WV">West Virginia</option><option value="WY">Wyoming</option></select>
+                        </p>
+                        <p><input type="text" placeholder="Postal Code"></p>
+                        <p><input type="text" placeholder="Phone Number"></p>
+                        </div>
+                        <div class="col-1">
+                            <p>
+                                <select name="" id="">
+                                    <option value="">Select card type...</option>
+                                    <option value="1">Visa</option>
+                                    <option value="2">Mastercard</option>
+                                    <option value="3">American Express</option>
+                                    <option value="4">Discover</option>
+                                </select>
+                            </p>
+                            <p><input type="text" placeholder="Card Number"></p>
+                            <p>
+                                <select name="" id="" class="width-2 margin-2-1">
+                                    <option value="">Exp. Month</option>
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    <option value="6">06</option>
+                                    <option value="7">07</option>
+                                    <option value="8">08</option>
+                                    <option value="9">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                                <select name="" id="" class="width-2 margin-2-2"><option value="" selected="">Exp. Year</option><option value="17">2017</option><option value="18">2018</option><option value="19">2019</option><option value="20">2020</option><option value="21">2021</option><option value="22">2022</option><option value="23">2023</option><option value="24">2024</option><option value="25">2025</option><option value="26">2026</option>
+                                </select>
+                            </p>
+                        </div>
+                        <p>
+                            <input type="checkbox" id="newsletter">
+                            <label for="newsletter" class="checkbox-label">Make this my primary billing address</label>
+                        </p>
+                    </form>
+                    <input type="submit" value="SAVE BILLING ADDRESS">
+                    <button class="close-new-address">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="s-footer">
+            <div class="s-footer__top">
+                <div class="container-own">
+                    <div class="s-footer__col _main">
+                        <h4>Resources</h4>
+                        <ul role="navigation" class="m-footer">
+                            <li class="m-footer__item"><a href="#" class="m-footer__link">FAQ</a>
+                            </li>
+                            <li class="m-footer__item"><a href="#" class="m-footer__link">Downloads</a>
+                            </li>
+                            <li class="m-footer__item"><a href="#" class="m-footer__link">Free Samples</a>
+                            </li>
+                            <li class="m-footer__item"><a href="#" class="m-footer__link">Privacy Policy</a>
+                            </li>
+                            <li class="m-footer__item"><a href="#" class="m-footer__link">About Us</a>
+                            </li>
+                            <li class="m-footer__item"><a href="#" class="m-footer__link">Contact Us</a>
+                            </li>
+                            <li class="m-footer__item"><a href="#" class="m-footer__link">Affiliates Join Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="s-footer__col _info">
+                        <div class="s-footer__outer">
+                            <div class="s-footer__outer-top">
+                                <div class="s-footer__outer-left">
+                                    <div class="s-footer__wrap">
+                                        <h4>Connect with us</h4>
+                                        <ul role="navigation" class="m-social">
+                                            <li class="m-social__item">
+                                                <a href="#" class="m-social__link">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 470.513 470.513" class="svg-facebook">
+                                                        <path d="M271.52 154.17v-40.54c0-6.087.28-10.8.85-14.13.567-3.336 1.857-6.616 3.86-9.854 1.998-3.236 5.235-5.47 9.705-6.708 4.476-1.24 10.424-1.858 17.85-1.858h40.54V0h-64.81c-37.5 0-64.433 8.897-80.803 26.69-16.368 17.8-24.55 44.015-24.55 78.66v48.82H125.62v81.085h48.537V470.51h97.362V235.257h64.803l8.566-81.086h-73.37z"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li class="m-social__item">
+                                                <a href="#" class="m-social__link">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 1000" class="svg-houzz">
+                                                        <path d="M500 663l282.8-163v326.5L500 990V663zM217.2 500v326.5L500 662.9 217.2 500zM500 10v326.5L217.2 500V173.5L500 10zm0 326.5l282.8-163V500L500 336.5z"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li class="m-social__item">
+                                                <a href="#" class="m-social__link">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 612 612" class="svg-twitter">
+                                                        <path d="M612 116.258c-22.525 9.98-46.694 16.75-72.088 19.772 25.93-15.527 45.777-40.155 55.184-69.41-24.322 14.378-51.17 24.82-79.775 30.48-22.9-24.438-55.49-39.66-91.63-39.66-69.33 0-125.55 56.218-125.55 125.514 0 9.828 1.11 19.427 3.25 28.606-104.32-5.24-196.83-55.223-258.75-131.174-10.82 18.51-16.98 40.078-16.98 63.1 0 43.56 22.188 81.994 55.84 104.48-20.573-.688-39.924-6.348-56.865-15.756v1.568c0 60.806 43.29 111.554 100.693 123.104-10.517 2.83-21.607 4.398-33.08 4.398-8.107 0-15.947-.803-23.634-2.333 15.985 49.907 62.336 86.2 117.253 87.194-42.948 33.66-97.1 53.66-155.917 53.66-10.135 0-20.117-.61-29.945-1.72 55.568 35.68 121.537 56.486 192.44 56.486 230.947 0 357.187-191.29 357.187-357.187l-.42-16.254c24.66-17.595 46-39.7 62.79-64.863z"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li class="m-social__item">
+                                                <a href="#" class="m-social__link">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 90 90" class="svg-youtube">
+                                                        <path d="M70.94 65.832H66l.023-2.87c0-1.274 1.047-2.317 2.326-2.317h.31c1.28 0 2.33 1.043 2.33 2.318l-.06 2.87zm-18.527-6.148c-1.253 0-2.278.842-2.278 1.873V75.51c0 1.03 1.025 1.87 2.278 1.87 1.258 0 2.284-.84 2.284-1.87V61.557c0-1.032-1.026-1.873-2.284-1.873zM82.5 51.88v26.543C82.5 84.79 76.98 90 70.23 90H19.77C13.02 90 7.5 84.79 7.5 78.423V51.88c0-6.368 5.52-11.58 12.27-11.58h50.46c6.75 0 12.27 5.212 12.27 11.58zM23.137 81.304l-.004-27.96h6.255v-4.142l-16.674-.025v4.073l5.205.016v28.04h5.21zm18.75-23.796h-5.215v14.93c0 2.16.13 3.24-.008 3.62-.424 1.16-2.33 2.39-3.073.126-.12-.396-.01-1.59-.01-3.643l-.02-15.03h-5.19l.02 14.8c.01 2.27-.05 3.96.02 4.73.13 1.36.09 2.94 1.34 3.84 2.35 1.69 6.85-.25 7.97-2.67l-.01 3.09 4.19.01v-23.8zM58.57 74.606l-.01-12.427c-.005-4.74-3.548-7.58-8.357-3.74l.02-9.24-5.208.01-.025 31.89 4.284-.07.39-1.99c5.473 5.02 8.914 1.58 8.906-4.45zm16.32-1.647l-3.91.02c0 .15-.007.33-.01.53v2.18c0 1.17-.964 2.12-2.136 2.12h-.766c-1.174 0-2.14-.95-2.14-2.12v-5.74h8.955v-3.37c0-2.47-.063-4.93-.267-6.34-.64-4.46-6.893-5.16-10.05-2.88-.992.71-1.75 1.66-2.19 2.94-.443 1.28-.664 3.03-.664 5.25v7.41c.002 12.32 14.964 10.574 13.18-.02zM54.834 32.73c.27.654.687 1.184 1.254 1.584.56.394 1.276.592 2.134.592.753 0 1.42-.203 2-.622.577-.417 1.064-1.04 1.462-1.87l-.1 2.045h5.814V9.74H62.82v19.24c0 1.042-.858 1.895-1.907 1.895-1.043 0-1.904-.853-1.904-1.895V9.74h-4.78v16.674c0 2.124.04 3.54.1 4.258.06.713.23 1.397.5 2.06zM37.217 18.77c0-2.373.198-4.226.59-5.562.397-1.33 1.108-2.4 2.138-3.208 1.027-.81 2.342-1.217 3.94-1.217 1.346 0 2.498.264 3.46.78.967.52 1.713 1.196 2.23 2.03.527.835.885 1.694 1.076 2.573.2.89.3 2.235.3 4.048v6.252c0 2.293-.09 3.98-.27 5.05-.18 1.075-.56 2.07-1.14 3.005-.58.93-1.33 1.62-2.232 2.06-.92.45-1.97.67-3.154.67-1.325 0-2.44-.18-3.36-.56-.924-.38-1.637-.95-2.145-1.71-.514-.76-.875-1.69-1.093-2.77-.22-1.08-.32-2.71-.32-4.873l.003-6.545zm4.553 9.82c0 1.4 1.042 2.543 2.31 2.543 1.27 0 2.31-1.143 2.31-2.543V15.43c0-1.398-1.04-2.54-2.31-2.54-1.268 0-2.31 1.142-2.31 2.54v13.16zm-16.088 6.645h5.484l.006-18.96L37.652.033h-5.998L28.21 12.097 24.714 0H18.78l6.893 16.284.01 18.95z"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li class="m-social__item">
+                                                <a href="#" class="m-social__link">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" class="svg-google">
+                                                        <path d="M113.47 309.408L95.648 375.94l-65.14 1.378C11.043 341.21 0 299.9 0 256c0-42.45 10.324-82.483 28.624-117.732h.014L86.63 148.9l25.404 57.644c-5.317 15.5-8.215 32.14-8.215 49.456 0 18.792 3.403 36.797 9.65 53.408z"></path>
+                                                        <path d="M507.527 208.176C510.467 223.662 512 239.656 512 256c0 18.328-1.927 36.206-5.598 53.45-12.462 58.684-45.025 109.926-90.134 146.188l-.014-.014-73.044-3.727-10.338-64.535c29.932-17.554 53.324-45.025 65.646-77.91h-136.89V208.175h245.9z"></path>
+                                                        <path d="M416.253 455.624l.014.014C372.397 490.9 316.667 512 256 512c-97.49 0-182.252-54.49-225.49-134.68l82.96-67.91c21.62 57.697 77.278 98.77 142.53 98.77 28.047 0 54.323-7.582 76.87-20.818l83.383 68.262z"></path>
+                                                        <path d="M419.404 58.936l-82.933 67.896C313.14 112.246 285.555 103.82 256 103.82c-66.73 0-123.43 42.957-143.963 102.724L28.64 138.268h-.015C71.23 56.123 157.06 0 256 0c62.115 0 119.068 22.126 163.404 58.936z"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li class="m-social__item">
+                                                <a href="#" class="m-social__link">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 97.395 97.395" class="svg-instagram">
+                                                        <path d="M12.5 0h72.394c6.875 0 12.5 5.09 12.5 12.5v72.395c0 7.41-5.625 12.5-12.5 12.5H12.5c-6.876 0-12.5-5.09-12.5-12.5V12.5C0 5.09 5.624 0 12.5 0zm58.45 10.82c-2.412 0-4.383 1.973-4.383 4.386V25.7c0 2.413 1.97 4.386 4.383 4.386h11.008c2.412 0 4.385-1.973 4.385-4.385V15.21c0-2.413-1.972-4.385-4.384-4.385H70.945zm15.44 30.368h-8.573c.81 2.648 1.25 5.453 1.25 8.355 0 16.2-13.556 29.332-30.275 29.332-16.718 0-30.272-13.132-30.272-29.332 0-2.904.438-5.708 1.25-8.355h-8.945v41.14c0 2.13 1.742 3.873 3.872 3.873H82.52c2.13 0 3.87-1.74 3.87-3.87V41.19h-.002zm-37.6-11.655c-10.8 0-19.56 8.485-19.56 18.953S37.99 67.44 48.79 67.44c10.804 0 19.563-8.486 19.563-18.954s-8.757-18.953-19.56-18.953z"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li class="m-social__item">
+                                                <a href="#" class="m-social__link">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 486.392 486.392" class="svg-pinterest">
+                                                        <path d="M430.15 135.248C416.864 39.125 321.075-9.818 218.872 1.642 138.07 10.702 57.512 76.03 54.168 169.447c-2.037 57.03 14.136 99.8 68.4 111.84 23.498-41.586-7.57-50.676-12.434-80.802C90.222 77.367 252.16-6.718 336.974 79.313c58.733 59.583 20.034 242.77-74.57 223.71-90.62-18.18 44.384-164.005-27.936-192.61-58.793-23.287-90.013 71.134-62.137 118.07-16.352 80.712-51.554 156.71-37.3 257.91 46.21-33.56 61.805-97.734 74.57-164.704 23.228 14.133 35.66 28.755 65.27 31.035 109.196 8.48 170.268-109.014 155.28-217.48z"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="s-footer__wrap">
+                                        <h4 class="_margin">Shop with Confidence</h4>
+                                        <ul role="list" class="l-confidence">
+                                            <li class="l-confidence__item">
+                                                <a href="#" class="l-confidence__link">
+                                                    <img src="../img/godaddy.png" class="l-confidence__img" />
+                                                </a>
+                                            </li>
+                                            <li class="l-confidence__item">
+                                                <a href="#" class="l-confidence__link">
+                                                    <img src="../img/participating.png" class="l-confidence__img" />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="s-footer__outer-right">
+                                    <h4>We Accept</h4>
+                                    <ul role="list" class="l-payment">
+                                        <li class="l-payment__item">
+                                            <a href="#" class="l-payment__link">
+                                                <img src="../img/americanex.png" class="l-payment__img" />
+                                            </a>
+                                        </li>
+                                        <li class="l-payment__item">
+                                            <a href="#" class="l-payment__link">
+                                                <img src="../img/discover.png" class="l-payment__img" />
+                                            </a>
+                                        </li>
+                                        <li class="l-payment__item">
+                                            <a href="#" class="l-payment__link">
+                                                <img src="../img/paypal.png" class="l-payment__img" />
+                                            </a>
+                                        </li>
+                                        <li class="l-payment__item">
+                                            <a href="#" class="l-payment__link">
+                                                <img src="../img/visa.png" class="l-payment__img" />
+                                            </a>
+                                        </li>
+                                        <li class="l-payment__item">
+                                            <a href="#" class="l-payment__link">
+                                                <img src="../img/mastercard.png" class="l-payment__img" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="b-contact">
+                                        <h4>Contact us</h4>
+                                        <div class="b-contact__address-text">970 New Brunswick Ave,
+                                            <br/>Unit 4, Rahway,
+                                            <br/>New Jersey 07065</div><a href="tel:8665536677" class="b-contact__call-link">(866) 55-DOORS (36677)<img src="../img/call.png" class="b-contact__call-img"/></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s-footer__outer-bottom">
+                                <div class="s-footer__outer-text">
+                                    <p>© 2009 - 2016 DYMC, Inc DBA Doors And Beyond</p>
+                                    <p>Welcome to Doors and Beyond – your one stop online source for European interior and exterior doors. Our inventory is stocked with the most fashionable and attractive designs currently available in home design, and we're
+                                        proud to offer some of the most affordable options available.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s-footer__col _contact">
+                        <div class="b-contact">
+                            <h4>Contact us</h4>
+                            <div class="b-contact__address-text">970 New Brunswick Ave,
+                                <br/>Unit 4, Rahway,
+                                <br/>New Jersey 07065</div><a href="tel:8665536677" class="b-contact__call-link">(866) 55-DOORS (36677)<img src="../img/call.png" class="b-contact__call-img"/></a>
+                        </div>
+                        <ul role="list" class="l-trophy">
+                            <li class="l-trophy__item">
+                                <a href="#" class="l-trophy__link">
+                                    <img src="../img/trophy1.png" class="l-trophy__img" />
+                                </a>
+                            </li>
+                            <li class="l-trophy__item">
+                                <a href="#" class="l-trophy__link">
+                                    <img src="https://verify.authorize.net/anetseal/images/secure90x72.gif" class="l-trophy__img" />
+                                </a>
+                            </li>
+                            <li class="l-trophy__item">
+                                <a href="#" class="l-trophy__link">
+                                    <img src="../img/trophy3.png" class="l-trophy__img" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="s-footer__bottom">
+                <div class="container-own _bottom">
+                    <div class="s-footer__col _main">
+                        <a href="#" class="s-footer__link-logo">
+                            <img src="../img/f-logo.png" class="s-footer__img" />
+                        </a>
+                    </div>
+                    <div class="s-footer__col _info">
+                        <p class="s-footer__bottom-text">All rights on images and pictures of the products represented on this website belongs to their respective owners. All products images used are for illustrative purposes only. Individual features such as wood veneer grain and color
+                            tone of finishes may vary.</p>
+                    </div>
+                    <div class="s-footer__col _contact powered">
+                        <a href="#" class="s-footer__link-digital-ocean">
+                            <p class="txt">Powered by b6ny.com</p>
+                            <img src="../img/b6ny-logo.png" alt="" class="ico-logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+        <!-- SCRIPTS -->
+        <script src="../js/jquery-1.11.3.min.js"></script>
+
+        <script src="../js/vendor/device.min.js"></script>
+        <script src="../js/vendor/ib-detect.js"></script>
+        <script src="../js/vendor/slick.min.js"></script>
+        <script src="../js/main.js"></script>
+        <!-- SCRIPTS -->
+    </body>
+</html>
