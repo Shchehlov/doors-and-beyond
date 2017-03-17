@@ -4476,4 +4476,21 @@
     }
 }
 /* UTP Page */
+
+/* Carrer Page */
+.carrer-menu .spisok-bl{
+    margin-top: 19px;
+}
+.carrer-menu .spisok-bl .desc{
+    font: 24px Helvetica-Medium;
+    color: #000;
+}
+.carrer-bl{
+    max-width: 836px;
+    width: calc(100% - 300px);
+    height: auto;
+    color: #000;
+    margin-top: 19px;
+}
+/* Carrer Page */
 /* Information Style */

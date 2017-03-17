@@ -8,7 +8,7 @@
         <link href="../css/header-footer.css" rel="stylesheet"/>
         <link href="../css/main.css" rel="stylesheet"/>
         <link href="../css/catalog-style.css" rel="stylesheet"/>
-        <link href="../css/cloud-zoom.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="../css/multizoom.css" type="text/css"/>
         <link href="../css/jquery.fancybox.css" rel="stylesheet"/>
         <!--[if IE]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -1043,7 +1043,7 @@
             </ul>
         </div>
 
-        <div class="content">
+        <div class="content content-product">
             <div class="handles-model catalog-model">
                 <div class="product-cart">
                     <div class="zag-bl">
@@ -1051,14 +1051,14 @@
                     	<p class="zag">Emtek Hercules Brass<br>Modern Privacy Lever</p>
                     </div>
                     <div class="foto-wrapp">
-                       <div class="big-foto-bl">
-                           <a class="cloud-zoom" data-fancybox="gallery" id='zoom1' href="../img/catalog/handles-foto-1-big.jpg"><img src="../img/catalog/handles-foto-1.jpg" alt=""/></a>
+                        <div class="big-foto-bl">                       
+                            <a data-fancybox="gallery" href="../img/catalog/handles-foto-1-big.jpg"><img id="multizoom1" alt="zoomable" title="" src="../img/catalog/handles-foto-1.jpg"/></a>
                         </div>
-                        <div class="small-foto-bl">
-                           <a href='../img/catalog/handles-foto-1-big.jpg' class='cloud-zoom-gallery nav-foto' rel="useZoom: 'zoom1', smallImage: '../img/catalog/handles-foto-1.jpg'"><img src="../img/catalog/handles-foto-1.jpg"/></a>
-                           <a href='../img/catalog/interior-door-2.jpg' class='cloud-zoom-gallery nav-foto' rel="useZoom: 'zoom1', smallImage: '../img/catalog/interior-door-2.jpg'"><img src="../img/catalog/interior-door-2.jpg"/></a>
-                           <a href='../img/catalog/interior-door-3.jpg' class='cloud-zoom-gallery nav-foto' rel="useZoom: 'zoom1', smallImage: '../img/catalog/interior-door-3.jpg'"><img src="../img/catalog/interior-door-3.jpg"/></a>
-                           <a href='../img/catalog/interior-door-4.jpg' class='cloud-zoom-gallery nav-foto' rel="useZoom: 'zoom1', smallImage: '../img/catalog/interior-door-4.jpg'"><img src="../img/catalog/interior-door-4.jpg"/></a>
+                        <div class="multizoom1 thumbs small-foto-bl">
+                            <a href="../img/catalog/handles-foto-1.jpg" class="nav-foto" data-large="../img/catalog/handles-foto-1-big.jpg"><img src="../img/catalog/handles-foto-1.jpg"/></a>                        
+                            <a href="../img/catalog/interior-door-2.jpg" class="nav-foto" data-large="../img/catalog/interior-door-2.jpg"><img src="../img/catalog/interior-door-2.jpg"/></a>
+                            <a href="../img/catalog/interior-door-3.jpg" class="nav-foto" data-large="../img/catalog/interior-door-3.jpg"><img src="../img/catalog/interior-door-3.jpg"/></a>
+                            <a href="../img/catalog/interior-door-4.jpg" class="nav-foto" data-large="../img/catalog/interior-door-4.jpg"><img src="../img/catalog/interior-door-4.jpg"/></a>
                         </div>
                     </div>
                     <div class="desc-bl">
@@ -1385,15 +1385,13 @@
         <!-- SCRIPTS -->
         <script src="../js/jquery-1.11.3.min.js"></script>
         <script src="../js/jquery.fancybox.min.js"></script>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-        <script src="../js/cloud-zoom.1.0.3.js"></script>
+        <script type="text/javascript" src="../js/multizoom.js"></script>
+        <script src="../js/catalog-js.js"></script>
 
-        <script src="../js/jquery.noconflict.js"></script>
         <script src="../js/vendor/device.min.js"></script>
         <script src="../js/vendor/ib-detect.js"></script>
         <script src="../js/vendor/slick.min.js"></script>
         <script src="../js/main.js"></script>
-        <script src="../js/catalog-js.js"></script>
         <!-- SCRIPTS -->
     </body>
 </html>

@@ -8,7 +8,7 @@
         <link href="../css/header-footer.css" rel="stylesheet"/>
         <link href="../css/main.css" rel="stylesheet"/>
         <link href="../css/calculate-style.css" rel="stylesheet"/>
-        <link href="../css/cloud-zoom.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="../css/multizoom.css" type="text/css"/>
         <link href="../css/jquery.fancybox.css" rel="stylesheet"/>
         <!--[if IE]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -1045,22 +1045,22 @@
         <div class="content content-product">
             <div class="product-cart">
                 <div class="foto-wrapp">
-				   <div class="big-foto-bl">
-					   <a class="cloud-zoom" data-fancybox="gallery" id='zoom1' href="../img/calculate/product-big-foto.jpg"><img src="../img/calculate/product-small-foto.jpg" alt=""/></a>
+				   <div class="big-foto-bl">                       
+                       <a class="cloud-zoom" data-fancybox="gallery" href="../img/calculate/product-big-foto.jpg"><img id="multizoom1" alt="zoomable" title="" src="../img/calculate/product-small-foto.jpg"/></a>
 					</div>
-					<div class="small-foto-bl">
-					   <a href='../img/calculate/product-big-foto.jpg' class='cloud-zoom-gallery nav-foto' rel="useZoom: 'zoom1', smallImage: '../img/calculate/product-small-foto.jpg'"><img src="../img/calculate/product-small-foto.jpg"/></a>
-					   <a href='../img/calculate/product-big-foto.jpg' class='cloud-zoom-gallery nav-foto' rel="useZoom: 'zoom1', smallImage: '../img/calculate/product-small-foto.jpg'"><img src="../img/calculate/product-small-foto.jpg"/></a>
-					   <a href='../img/calculate/product-big-foto.jpg' class='cloud-zoom-gallery nav-foto' rel="useZoom: 'zoom1', smallImage: '../img/calculate/product-small-foto.jpg'"><img src="../img/calculate/product-small-foto.jpg"/></a>
-					   <a href='../img/calculate/product-big-foto.jpg' class='cloud-zoom-gallery nav-foto' rel="useZoom: 'zoom1', smallImage: '../img/calculate/product-small-foto.jpg'"><img src="../img/calculate/product-small-foto.jpg"/></a>
-					</div>
+                    <div class="multizoom1 thumbs small-foto-bl">
+                        <a href="../img/calculate/product-small-foto.jpg" class="nav-foto" data-large="../img/calculate/product-big-foto.jpg"><img src="../img/calculate/product-small-foto.jpg"/></a>                        
+                        <a href="../img/calculate/product-small-foto.jpg" class="nav-foto" data-large="../img/calculate/product-big-foto.jpg"><img src="../img/calculate/product-small-foto.jpg"/></a>                        
+                        <a href="../img/calculate/product-small-foto.jpg" class="nav-foto" data-large="../img/calculate/product-big-foto.jpg"><img src="../img/calculate/product-small-foto.jpg"/></a>                        
+                        <a href="../img/calculate/product-small-foto.jpg" class="nav-foto" data-large="../img/calculate/product-big-foto.jpg"><img src="../img/calculate/product-small-foto.jpg"/></a>
+                    </div>
 				</div>
                 <div class="desc-bl">
                     <div class="warranty"><img src="../img/catalog/exterior-garanty.png" alt=""></div>
-                    <p class="zag">Arazzinni Maximum 201<br>Interior Door Wenge</p>
+                    <p class="zag">Arazzinni Grand 208 Interior Door</p>
                     <p class="price">$712.09</p>
                     <div class="addcart-btn"><p>Add to Cart</p></div>
-                    <a href="" class="create-btn"><p>How it works</p></a>
+                    <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="create-btn"><p>How it works</p></a>
                     <div class="clear"></div>
                     <p class="opis">This is Stock Model<br>Depending on Configuration<br>Lead time 7 - 14 Business Days</p>
                     <div class="rating-bl">
@@ -1093,7 +1093,7 @@
                 <div class="clear"></div>
             </div>
             
-            <div class="customize-line"><div class="center">Customize your door</div></div>
+            <div class="customize-line" id="customize-line"><div class="center">Customize your door</div></div>
             
             <section class="bg-calc step-customize" id="step-1">
                 <div class="wrapp-vubrano"></div>
@@ -1322,33 +1322,33 @@
                     <div class="opis">
                         <button class="open-opis"><p>Description</p></button>
                         <div class="wrapp-txt">
-                            <p class="txt">Maximum 201 interior door wenge employs a sleek, contemporary design to create a smooth, sophisticated look. It’s recessed inlay with aluminum stripe moldings and sharp angles make the door stand out, while not taking away from the surrounding decor.</p>
-                            <p class="txt">This door is also quite sturdy and durable. Its frame is made from solid pine planks that are secured with micro studs and surrounds the recessed chipboard inlay. The entire package is then wrapped in medium density fibreboard, and African wenge veneer is added to create a high-textured look. This texture is further enhanced with the addition of Becker Acrona varnish with interim grinding. The polished aluminum stripe moldings create a beautiful contrast with the deep, rich tone and texture of the wood for a beautiful finished piece.</p>
-                            <p class="txt">Like all of our doors, the Maximum 201 comes with a two year warranty against defects, and you can be sure your door will be made from only the best, highest-quality materials available.</p>
+                            <p>Maximum 201 interior door wenge employs a sleek, contemporary design to create a smooth, sophisticated look. It’s recessed inlay with aluminum stripe moldings and sharp angles make the door stand out, while not taking away from the surrounding decor.</p>
+                            <p>This door is also quite sturdy and durable. Its frame is made from solid pine planks that are secured with micro studs and surrounds the recessed chipboard inlay. The entire package is then wrapped in medium density fibreboard, and African wenge veneer is added to create a high-textured look. This texture is further enhanced with the addition of Becker Acrona varnish with interim grinding. The polished aluminum stripe moldings create a beautiful contrast with the deep, rich tone and texture of the wood for a beautiful finished piece.</p>
+                            <p>Like all of our doors, the Maximum 201 comes with a two year warranty against defects, and you can be sure your door will be made from only the best, highest-quality materials available.</p>
                         </div>
                     </div>
                     <div class="opis">
                         <button class="open-opis"><p>Technical Specifications</p></button>
                         <div class="wrapp-txt">
-                            <p class="txt">Maximum 201 interior door wenge employs a sleek, contemporary design to create a smooth, sophisticated look. It’s recessed inlay with aluminum stripe moldings and sharp angles make the door stand out, while not taking away from the surrounding decor.</p>
+                            <p>Maximum 201 interior door wenge employs a sleek, contemporary design to create a smooth, sophisticated look. It’s recessed inlay with aluminum stripe moldings and sharp angles make the door stand out, while not taking away from the surrounding decor.</p>
                         </div>
                     </div>
                     <div class="opis">
                         <button class="open-opis"><p>About</p></button>
                         <div class="wrapp-txt">
-                            <p class="txt">Maximum 201 interior door wenge employs a sleek, contemporary design to create a smooth, sophisticated look. It’s recessed inlay with aluminum stripe moldings and sharp angles make the door stand out, while not taking away from the surrounding decor.</p>
+                            <p>Maximum 201 interior door wenge employs a sleek, contemporary design to create a smooth, sophisticated look. It’s recessed inlay with aluminum stripe moldings and sharp angles make the door stand out, while not taking away from the surrounding decor.</p>
                         </div>
                     </div>
                     <div class="opis">
                         <button class="open-opis"><p>About</p></button>
                         <div class="wrapp-txt">
-                            <p class="txt">Maximum 201 interior door wenge employs a sleek, contemporary design to create a smooth, sophisticated look. It’s recessed inlay with aluminum stripe moldings and sharp angles make the door stand out, while not taking away from the surrounding decor.</p>
+                            <p>Maximum 201 interior door wenge employs a sleek, contemporary design to create a smooth, sophisticated look. It’s recessed inlay with aluminum stripe moldings and sharp angles make the door stand out, while not taking away from the surrounding decor.</p>
                         </div>
                     </div>
                     <div class="opis">
                         <button class="open-opis"><p>About</p></button>
                         <div class="wrapp-txt">
-                            <p class="txt">Maximum 201 interior door wenge employs a sleek, contemporary design to create a smooth, sophisticated look. It’s recessed inlay with aluminum stripe moldings and sharp angles make the door stand out, while not taking away from the surrounding decor.</p>
+                            <p>Maximum 201 interior door wenge employs a sleek, contemporary design to create a smooth, sophisticated look. It’s recessed inlay with aluminum stripe moldings and sharp angles make the door stand out, while not taking away from the surrounding decor.</p>
                         </div>
                     </div>
                 </div>
@@ -1551,8 +1551,8 @@
     <!-- SCRIPTS -->
         <script src="../js/jquery-1.11.3.min.js"></script>
         <script src="../js/jquery.fancybox.min.js"></script>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-        <script src="../js/cloud-zoom.1.0.3.js"></script>
+        <script src="../js/media.js"></script>
+        <script type="text/javascript" src="../js/multizoom.js"></script>
         <script src="../js/catalog-js.js"></script>
         
         <script src="../js/vendor/device.min.js"></script>

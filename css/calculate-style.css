@@ -71,8 +71,8 @@ header,nav{
 	height: auto;
 }
 @media all and (max-width: 1160px) {
-	.product-cart .mousetrap,
-	.product-cart .cloud-zoom-big{
+    .product-cart .magnifyarea,
+    .product-cart .cursorshade{
 		display: none;
 	}
 }
@@ -91,6 +91,7 @@ header,nav{
 }
 .product-cart .desc-bl .zag{
     font: 24px Helvetica-Regular;
+    max-width: 280px;
     color: #000;
     position: relative;
 }
@@ -111,6 +112,7 @@ header,nav{
     line-height: 41px;
     margin-top: 9px;
     float: left;
+    text-decoration: none;
     margin-right: 24px;
 }
 .product-cart .desc-bl .addcart-btn:hover{
@@ -130,19 +132,22 @@ header,nav{
     background: #f2f2f2;
     font: 13.42px Helvetica-Heavy;
     color: #000;
-    text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     margin-top: 9px;
+    line-height: 41px;
     float: left;
+    position: relative;
+}
+.product-cart .desc-bl .create-btn p{
+    padding-left: 60px;
 }
 .product-cart .desc-bl .create-btn p:before{
     content: url(../img/calculate/video-btn.png);
-    position: relative;
-    top: 8px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
     margin-right: 15px;
-    width: 37px;
-    height: 27px;
     display: inline-block;
 }
 .product-cart .desc-bl .create-btn:hover{
@@ -258,7 +263,7 @@ header,nav{
 .content-product .opis:first-child{
 	display: block;
 }
-.content-product .opis .txt{
+.content-product .opis .wrapp-txt p{
 	font: 12px Arial;
 	color: #545454;
 	padding-bottom: 16px;
